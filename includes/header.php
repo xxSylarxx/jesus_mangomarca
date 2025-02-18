@@ -32,7 +32,7 @@
                         <a class="dropdown-item" href="inicial.php">Inicial</a>
                         <a class="dropdown-item" href="primaria.php">Primaria</a>
                         <a class="dropdown-item" href="secundaria.php">Secundaria</a>
-                        <a class="dropdown-item" href="academia.php">Academia</a>
+                        <!-- <a class="dropdown-item" href="academia.php">Academia</a> -->
                     </div>
                 </li>
                 <li class="nav-item fw-bold">

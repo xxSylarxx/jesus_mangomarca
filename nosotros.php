@@ -83,11 +83,7 @@
                 </div>
                 <div class="col-lg-4 mt-3">
                     <p class="text-justify m-0 line">
-                        Somos una Institución Educativa con el propósito de proporcionar las mismas
-                        oportunidades de estudio para nuestros estudiantes, realizando nuestras actividades
-                        con calidad, eficiencia y equidad, para desarrollar sus capacidades, habilidades
-                        cognitivas y emocionales, fomentando la creatividad y resolución de conflictos de
-                        nuestros estudiantes.
+                    Somos una Institución Educativa que forma alumnos autónomos, intelectualmente capaces, tolerantes e integradores de la diversidad y que son actores destacados del desarrollo y crecimiento de su entorno, con docentes innovadores, actualizados acorde al avance de la ciencia - tecnología y con vocación de servicio, padres comprometidos en la educación de sus hijos; en una infraestructura moderna y saludable, con directivos líderes pedagógicos fomentando la participación democrática.
                     </p>
                 </div>
             </div>
@@ -99,32 +95,30 @@
     <section class="container" id="valores">
         <div class="row justify-content-center">
             <div class="col-lg-6 p-0">
-                <div class="flip" style="background-color: var(--color4);">
-                    <div class="card" style="background-color: var(--color4);">
+                <div class="flip" style="background-color: #00a551;">
+                    <div class="card" style="background-color: #00a551;">
                         <div class="front">
                             <span class="fs-1"><i class="fas fa-globe"></i></span>
                             <h4 class="fw-bold">Misión</h4>
                         </div>
                         <div class="back">
                             <span>
-                                Somos una Institución Educativa reconocida como formador de líderes,
-                                con un alto nivel académico con una sólida formación en valores.
+                            Es acompañar a nuestros estudiantes en su crecimiento humano, espiritual y saludable, para un desempeño superior en la vida a partir del desarrollo de una ética de trabajo, de la autodisciplina, la solidaridad, el respeto por las diferencias y por todas las formas de vida en nuestra comunidad.
                             </span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 p-0">
-                <div class="flip" style="background-color: #46c9e0;">
-                    <div class="card" style="background-color: #46c9e0;">
+                <div class="flip" style="background-color: var(--color2)">
+                    <div class="card" style="background-color: var(--color2)">
                         <div class="front">
                             <span class="fs-1"><i class="fas fa-eye"></i></span>
                             <h4 class="fw-bold">Visión</h4>
                         </div>
                         <div class="back">
                             <span>
-                                Ser una Institución Educativa reconocida por estar basada en 
-                                la excelencia en el servicio de sus colaboradores.
+                            Ser comunidad educativa que promueve activamente un entorno inclusivo donde todos los miembros se sientan valorados, donde los estudiantes vivencien la exploración y el intercambio de diversas experiencias de aprendizaje y transformen la sociedad a través de nuestra educación.
                             </span>
                         </div>
                     </div>

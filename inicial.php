@@ -181,8 +181,8 @@
     <section class="container-fluid" id="valores">
         <div class="row justify-content-center">
             <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: var(--color4);">
-                    <div class="card" style="background-color: var(--color4);">
+                <div class="flip" style="background-color: #00a551;">
+                    <div class="card" style="background-color: #00a551;">
                         <div class="front">
                             <span class="fs-1"><i class="fas fa-people-carry"></i></span>
                             <h4 class="fw-bold">Trabajo en equipo</h4>
@@ -195,8 +195,8 @@
                 </div>
             </div>
             <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: #46c9e0;">
-                    <div class="card" style="background-color: #46c9e0;">
+                <div class="flip" style="background-color: var(--color2)">
+                    <div class="card" style="background-color: var(--color2);">
                         <div class="front">
                             <span class="fs-1"><i class="fas fa-gem"></i></span>
                             <h4 class="fw-bold">Respeto</h4>
@@ -209,8 +209,8 @@
                 </div>
             </div>
             <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: var(--color4);">
-                    <div class="card" style="background-color: var(--color4);">
+                <div class="flip" style="background-color: #00a551;">
+                    <div class="card" style="background-color: #00a551;">
                         <div class="front">
                             <span class="fs-1"><i class="fas fa-heartbeat"></i></span>
                             <h4 class="fw-bold">Honestidad</h4>
@@ -223,8 +223,8 @@
                 </div>
             </div>
             <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: #46c9e0;">
-                    <div class="card" style="background-color: #46c9e0;">
+                <div class="flip" style="background-color: var(--color2);">
+                    <div class="card" style="background-color: var(--color2);">
                         <div class="front">
                             <span class="fs-1"><i class="fas fa-praying-hands"></i> </span>
                             <h4 class="fw-bold">Inclusión</h4>
