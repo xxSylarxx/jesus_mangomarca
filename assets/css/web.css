@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
+
+/* colores web */
+:root {
+  --color1: #24287f;
+  --color2: #008fd1;
+  --color3: #ff7315;
+  --color4: #2f3ec4;
+}
+
+body {
+  font-size: 17.5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p.line {
+  line-height: 1.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto Slab", serif;
+}
+
+/* estilos header */
+header {
+  -moz-box-shadow: 0 3px 3px rgba(94, 94, 94, 0.75);
+  -webkit-box-shadow: 0 3px 3px rgba(94, 94, 94, 0.75);
+  box-shadow: 0 3px 3px rgba(94, 94, 94, 0.75);
+}
+
+header .bar-sup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 7.5%;
+  background-color: var(--color2);
+}
+header .bar-sup a {
+  color: white;
+  font-size: 0.85em;
+}
+
+header nav.navbar {
+  background-color: var(--color1);
+  padding: 1.1% 7%;
+}
+
+header a.nav-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.83em;
+  text-transform: uppercase;
+}
+
+header a.nav-link i {
+  font-size: 1.3em;
+}
+
+header .navbar-nav .nav-item.active {
+  background-color: rgba(32, 34, 85, 0.6);
+  border-radius: 5px;
+}
+
+header .dropdown-menu {
+  background-color: #f6f6f8;
+  box-shadow: 0 0 3px rgb(197, 197, 197);
+}
+
+header .dropdown-item {
+  font-size: 0.8em;
+  padding: 8px 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header #escudo {
+  position: absolute; 
+  margin-top: -38px; 
+  margin-left: -22px;
+}
+
+header #logotipo {
+  font-family: "Roboto Slab", serif;
+  margin-left: 4.8em;
+  font-size: 1.2em;
+  color: #f9f8fc;
+}
+
+/* estilos globales */
+.separador {
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 3px solid var(--color4);
+}
+
+.separador > .sep_box {
+  width: 50px;
+  height: 48px;
+  text-align: center;
+  border: 3px solid var(--color4);
+  border-bottom: none;
+  margin-right: 15px;
+  padding-top: 8.5px;
+  margin-bottom: -1px;
+  color: #6b6969;
+}
+
+.separador > .sep_title {
+  font-size: 23px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--color3);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* estilos footer */
+footer {
+  background: linear-gradient(rgba(16, 61, 156, 0.95), rgba(29, 8, 87, 0.9)), url(../../img/back_footer.jpg);
+  background-size: 30%;
+}
+
+footer .bar-inf {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 7%;
+  background-color: var(--color2);
+}
+
+footer .bar-inf a {
+  color: white;
+  font-size: 0.85em;
+}
+
+
+/* mod responsive */
+@media only screen and (max-width: 600px) {
+  header #escudo {
+    height: 80px;
+    margin-top: -10px;
+    margin-left: 3px;
+  }
+  header #logotipo {
+    margin-left: 20em;
+    font-size: 0.2em;
+  }
+  header nav.navbar {
+    background-color: var(--color1);
+    padding: 2.7% 3%;
+  }
+  footer .bar-inf {
+    padding: 6px 3%;
+  }
+}

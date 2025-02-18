@@ -1,0 +1,409 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icons/escudo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/web.css">
+    <link rel="stylesheet" href="./assets/css/niveles.css">
+    <title>COLEGIO PITAGORAS SJL</title>
+</head>
+
+<body>
+
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <style>
+        #redes {
+            position: fixed;
+            width: 45px;
+            min-width: 45px;
+            max-width: 45px;
+            top: 50%;
+            right: 0;
+            transform: translateY(-75%);
+            z-index: 99;
+        }
+
+        #redes a {
+            font-size: 21px;
+            color: white;
+        }
+
+        #niveles {
+            background-color: var(--color1);
+        }
+
+        #valores .flip {
+            height: 172px;
+            padding: 0.6em;
+        }
+
+        #valores .card {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 1s;
+            transform-style: preserve-3d;
+        }
+
+        #valores .flip:nth-child(1):hover .card {
+            transform: rotateY(180deg);
+        }
+
+        #valores .front,
+        #valores .back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            cursor: default;
+        }
+
+        #valores .front {
+            color: #fff;
+            border: 2px solid #ececec;
+        }
+
+        #valores .back {
+            color: white;
+            transform: rotateY(180deg);
+            border: 2px solid #ececec;
+            padding: 0.5em;
+        }
+
+        #noticias .card {
+            border-color: #fff;
+            background: linear-gradient(rgb(255, 255, 255), rgb(243, 243, 243));
+            box-shadow: 0 0 5px rgb(161, 161, 161);
+            transition: transform 0.3s;
+        }
+
+        #noticias .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 5px rgb(134, 134, 134);
+        }
+
+        #noticias img.cover {
+            height: 210px;
+            object-fit: cover;
+        }
+
+        #noticias h5 {
+            color: var(--color3);
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.93em;
+        }
+
+        #noticias .detalle {
+            font-size: 0.85em;
+            text-align: justify;
+        }
+
+        #noticias .card-footer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background: transparent;
+            font-size: 0.8em;
+            padding-top: 11px;
+            padding-bottom: 11px;
+        }
+
+        #noticias .card-footer i {
+            font-size: 1.2em;
+        }
+    </style>
+
+    <?php include_once './includes/header.php'; ?>
+
+    <section id="redes">
+        <div class="bg-success text-white py-2 d-flex justify-content-center" style="border-top-left-radius: 9px;">
+            <a href="https://api.whatsapp.com/send?phone=51923496395" title="Whatsapp"><i
+                    class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="bg-info text-white py-2 d-flex justify-content-center">
+            <a href="https://www.facebook.com/pitagorasjl" target="_blank" title="Facebook"><i
+                    class="fab fa-facebook-square"></i></a>
+        </div>
+        <!-- <div class="text-white py-2 d-flex justify-content-center" style="background-color: rgb(248, 63, 125);">
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div> -->
+        <div class="bg-danger text-white py-2 d-flex justify-content-center">
+            <a href="https://www.youtube.com/channel/UCnkJWL5kwbS_yZvTLhtEkGg/featured" target="_blank"
+                title="Youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="text-white py-2 d-flex justify-content-center"
+            style="border-bottom-left-radius: 9px; background-color: rgb(213, 182, 216);">
+            <a href="#" target="_blank" title="Cubicol"><img src="./img/icons/cubo.png" height="28"></a>
+        </div>
+    </section>
+
+    <section class="container-fluid p-0">
+        <a href="admision.php">
+            <img src="./img/banner/banner_prueba3.jpg" class="w-100">
+        </a>
+    </section>
+
+    <br><br><br>
+
+    <section class="container">
+        <div class="separador">
+            <div class="sep_box"><i class="fas fa-hotel"></i></div>
+            <div class="sep_title">Bienvenidos</div>
+        </div>
+        <div class="row justify-content-between mt-4 pt-4">
+            <div class="col-lg-5 py-2">
+                <p class="text-justify line">
+                    <b>Estimados alumnos y padres de familia.</b>
+                </p>
+                <p class="text-justify line">
+                    Saludamos a los alumnos en este año escolar, les pedimos que aprovechen todas las instancias que la
+                    institución les otorga para que logren un mejor desarrollo personal y académico. Nuestro Colegio,
+                    viene entregando enseñanzas a niños y jóvenes orientadas en valores, de la mano con docentes
+                    especializados y orientadores educativos quienes acompañan día a día en el proceso de enseñanza
+                    experimentando nuevos desafíos.<br>Todos conocemos de los grandes resultados obtenidos, entre ellos
+                    el ingreso de nuestros estudiantes a las mejores universidades del país y cada uno de los que somos
+                    parte de esta institución debemos sentirnos orgullosos de ellos. Es por eso que continuamos firmes a
+                    nuestro compromiso de una educación de calidad.
+                </p>
+            </div>
+            <div class="col-lg-6 text-end pt-4">
+                <img src="./img/web/bienvenidos.jpg" class="rounded shadow" width="98%">
+            </div>
+        </div>
+    </section>
+
+    <br><br><br>
+
+    <section class="container-fluid py-3" id="niveles">
+        <div class="container py-4">
+            <div class="separador" style="border-color: white;">
+                <div class="sep_box text-white" style="border-color: white;"><i class="fas fa-graduation-cap"></i></div>
+                <div class="sep_title text-white">Niveles</div>
+            </div>
+            <div class="row mt-4 pt-4">
+                <div class="col-lg-3 my-3">
+                    <div class="card-niveles">
+                        <div class="thumb">
+                            <a href="inicial.php">
+                                <img src="./img/web/inicial.jpg" width="100%" />
+                                <span>INICIAL</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="card-niveles">
+                        <div class="thumb">
+                            <a href="primaria.php">
+                                <img src="./img/web/primaria.jpg" width="100%" />
+                                <span>PRIMARIA</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="card-niveles">
+                        <div class="thumb">
+                            <a href="secundaria.php">
+                                <img src="./img/web/secundaria.png" width="100%" />
+                                <span>SECUNDARIA</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="card-niveles">
+                        <div class="thumb">
+                            <a href="academia.php">
+                                <img src="./img/web/academia.jpg" width="100%" />
+                                <span>ACADEMIA</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <br><br><br>
+
+    <section class="container" id="servicios">
+        <div class="separador">
+            <div class="sep_box"><i class="fas fa-laptop"></i></div>
+            <div class="sep_title">Servicios tecnológicos</div>
+        </div>
+        <div class="row justify-content-around mt-4 pt-4">
+            <div class="col-lg-5 my-2">
+                <img src="https://gestion.pe/resizer/LOnv9z2WGZfpAtpXcBa2gJYl8aY=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/SNAX3ENF5BBS3IFCYFAOU4JDZU.jpg"
+                    class="rounded shadow" width="100%" height="290">
+            </div>
+            <div class="col-lg-5 my-2">
+                <video src="./img/video/VIDEO_CUBICOL.mp4" class="shadow rounded" width="100%" autoplay muted
+                    loop></video>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br>
+
+    <section class="container-fluid" id="valores">
+        <div class="row justify-content-center">
+            <div class="col-lg-3 p-0">
+                <div class="flip" style="background-color: var(--color4);">
+                    <div class="card" style="background-color: var(--color4);">
+                        <div class="front">
+                            <span class="fs-1"><i class="fas fa-people-carry"></i></span>
+                            <h4 class="fw-bold">Trabajo en equipo</h4>
+                        </div>
+                        <div class="back">
+                            <span>Fomenta un sentido de lealtad, seguridad y autoestima que satisface las necesidades
+                                individuales de los integrantes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 p-0">
+                <div class="flip" style="background-color: #46c9e0;">
+                    <div class="card" style="background-color: #46c9e0;">
+                        <div class="front">
+                            <span class="fs-1"><i class="fas fa-gem"></i></span>
+                            <h4 class="fw-bold">Respeto</h4>
+                        </div>
+                        <div class="back">
+                            <span>Reconocer el valor de cada persona y su propiedad, permitiendo que la sociedad viva en
+                                paz y en sana convivencia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 p-0">
+                <div class="flip" style="background-color: var(--color4);">
+                    <div class="card" style="background-color: var(--color4);">
+                        <div class="front">
+                            <span class="fs-1"><i class="fas fa-heartbeat"></i></span>
+                            <h4 class="fw-bold">Honestidad</h4>
+                        </div>
+                        <div class="back">
+                            <span>Desarrollar acciones humanas con rectitud, transparencia y sentido de pertenencia. La
+                                honestidad en nuestras acciones</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 p-0">
+                <div class="flip" style="background-color: #46c9e0;">
+                    <div class="card" style="background-color: #46c9e0;">
+                        <div class="front">
+                            <span class="fs-1"><i class="fas fa-praying-hands"></i> </span>
+                            <h4 class="fw-bold">Inclusión</h4>
+                        </div>
+                        <div class="back">
+                            <span>Valorar la diversidad social, que hace parte de nuestro entorno y asumir un compromiso
+                                significativo otorgando las mismas oportunidades</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br>
+
+    <section class="container" id="noticias">
+        <div class="separador">
+            <div class="sep_box"><i class="far fa-newspaper"></i></div>
+            <div class="sep_title">Noticias</div>
+        </div>
+        <div class="row mt-4 pt-3">
+            <div class="col-md-3 my-3 px-3">
+                <div class="card h-100">
+                    <img src="./img/noticias/noticia_1 .jpg" class="cover" width="100%">
+                    <div class="card-body pb-2">
+                        <a href="#">
+                            <h5>ciclo repaso 2021</h5>
+                        </a>
+                        <div class="detalle">
+                            <!-- text comentario -->
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span class="ms-2">13-10-2021</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-3 px-3">
+                <div class="card h-100">
+                    <img src="./img/noticias/noticia_2 .png" class="cover" width="100%">
+                    <div class="card-body pb-2">
+                        <a href="#">
+                            <h5>feliz día del niño</h5>
+                        </a>
+                        <div class="detalle">
+                            <!-- text comentario -->
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span class="ms-2">13-10-2021</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-3 px-3">
+                <div class="card h-100">
+                    <img src="./img/noticias/noticia_3 .jpg" class="cover" width="100%">
+                    <div class="card-body pb-2">
+                        <a href="#">
+                            <h5>Matricula abierta Repaso 2021</h5>
+                        </a>
+                        <div class="detalle">
+                            <!-- text comentario -->
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span class="ms-2">13-10-2021</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-3 px-3">
+                <div class="card h-100">
+                    <img src="./img/noticias/noticia_4.png" class="cover" width="100%">
+                    <div class="card-body pb-2">
+                        <a href="#">
+                            <h5>día internacional de la familia</h5>
+                        </a>
+                        <div class="detalle">
+                            <!-- text comentario -->
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span class="ms-2">13-10-2021</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br>
+
+    <?php include_once './includes/footer.php'; ?>
+
+</body>
+
+</html>
