@@ -21,10 +21,10 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link fw-bold" href="./">Home</a>
+                    <a class="nav-link fw-bold" href="./">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fw-bold" href="nosotros.php">we are</a>
+                    <a class="nav-link fw-bold" href="nosotros.php">Nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link fw-bold" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="me-2">Niveles</span><i class="fas fa-angle-down"></i></a>
