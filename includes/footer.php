@@ -20,11 +20,16 @@
                 </form>
             </div>
             <div class="col-lg-3 pt-3 d-flex justify-content-center">
-                <img src="./img/icons/escudo.png" width="90%" class="rounded-circle">
+                <style>
+            .img_escudo{
+                filter:drop-shadow(4px 5px 6px) 
+            }
+            </style>
+                <img class="img_escudo" src="./img/icons/escudo.png" width="90%" class="">
             </div>
             <div class="col-lg-3 my-auto text-white text-center">
-                <p><b>Informes:</b><br>923 496 395<br>937 715 907</p>
-                <p><b>Dirección:</b><br>Ampliación Mz. I-4 Lt. 35-36<br>José Carlos Mariategui - SJL, Lima.</p>
+                <p><b>Informes:</b><br> 983330558 <br>014593925 / 016531484</p>
+                <a href="https://maps.app.goo.gl/TxiErVpTADQ6CH6g6" target="_blank" style="color:white;"><p><b>Dirección:</b><br> Av. Mangomarca 499, Lima 15427 </p></a>
                 <br>
                 <a href="#" class="text-white">
                     <img src="./img/icons/book_reclamo.png" height="50" class="mb-2">
@@ -34,7 +39,7 @@
         </div>
     </div>
     <div class="bar-inf mt-3">
-        <a href="">Colegio Pitagoras <i class="far fa-copyright"></i> 2021</a>
+        <a href="">Asociación Educativa "De Jesús"  <i class="far fa-copyright"></i> 2021</a>
         <a href="#" class="ms-auto">Desarrollado por Sensoft Solutions</a>
     </div>
 </footer>

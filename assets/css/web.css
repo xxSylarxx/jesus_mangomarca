@@ -128,8 +128,9 @@ header #logotipo {
 
 /* estilos footer */
 footer {
-  background: linear-gradient(rgba(16, 61, 156, 0.95), rgba(29, 8, 87, 0.9)), url(../../img/back_footer.jpg);
-  background-size: 30%;
+  background: linear-gradient(rgba(152,47,52,0.9), rgba(152,47,52,1)), url(../../img/back_footer.jpg);
+  background-size: 30%; 
+
 }
 
 footer .bar-inf {
