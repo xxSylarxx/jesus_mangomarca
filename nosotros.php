@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/web.css">
-    <title>COLEGIO PITAGORAS SJL</title>
+    <title>Asociación Educativa "De Jesús"</title>
 </head>
 
 <body>

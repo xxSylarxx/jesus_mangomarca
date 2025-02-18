@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/web.css">
     <link rel="stylesheet" href="./assets/css/niveles.css">
-    <title>COLEGIO PITAGORAS SJL</title>
+    <title>Asociación Educativa "De Jesús"</title>
 </head>
 
 <body>
@@ -163,24 +163,22 @@
             <div class="sep_box"><i class="fas fa-hotel"></i></div>
             <div class="sep_title">Bienvenidos</div>
         </div>
-        <div class="row justify-content-between mt-4 pt-4">
+        <div class="row justify-content-around mt-4 pt-4">
             <div class="col-lg-5 py-2">
-                <p class="text-justify line">
+                <!--<p class="text-justify line">
                     <b>Estimados alumnos y padres de familia.</b>
-                </p>
+                </p>-->
+     
                 <p class="text-justify line">
-                    Saludamos a los alumnos en este año escolar, les pedimos que aprovechen todas las instancias que la
-                    institución les otorga para que logren un mejor desarrollo personal y académico. Nuestro Colegio,
-                    viene entregando enseñanzas a niños y jóvenes orientadas en valores, de la mano con docentes
-                    especializados y orientadores educativos quienes acompañan día a día en el proceso de enseñanza
-                    experimentando nuevos desafíos.<br>Todos conocemos de los grandes resultados obtenidos, entre ellos
-                    el ingreso de nuestros estudiantes a las mejores universidades del país y cada uno de los que somos
-                    parte de esta institución debemos sentirnos orgullosos de ellos. Es por eso que continuamos firmes a
-                    nuestro compromiso de una educación de calidad.
+                Es un honor recibirlos en este nuevo año académico 2025. Cada uno de ustedes es parte fundamental de nuestra institución, y juntos construimos un ambiente de aprendizaje, respeto y crecimiento. Este es un espacio donde cada día tiene el potencial de ser una nueva oportunidad para aprender.
+                <br>A los nuevos estudiantes, les extendemos una cálida bienvenida. Este es el lugar donde podrán desafiarse a sí mismos, desarrollar sus talentos y forjar un futuro brillante. A nuestros estudiantes más experimentados, les agradecemos su compromiso y dedicación. Al personal docente y administrativo, gracias por su esfuerzo continuo para ofrecer una educación de calidad. Cada uno de ustedes juega un papel crucial en el éxito de nuestra comunidad educativa
+
                 </p>
             </div>
-            <div class="col-lg-6 text-end pt-4">
-                <img src="./img/web/bienvenidos.jpg" class="rounded shadow" width="98%">
+            <div class="col-lg-6 text-end my-auto">
+               <div style="display:flex;justify-content:center;align-items:center;">
+                    <img src="./img/web/bienvenido1.png" class="rounded shadow" width="80%" alt="portada_bienvenida">
+               </div>
             </div>
         </div>
     </section>
@@ -224,16 +222,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 my-3">
-                    <div class="card-niveles">
-                        <div class="thumb">
-                            <a href="academia.php">
-                                <img src="./img/web/academia.jpg" width="100%" />
-                                <span>ACADEMIA</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <br>
@@ -263,8 +251,8 @@
     <section class="container-fluid" id="valores">
         <div class="row justify-content-center">
             <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: var(--color4);">
-                    <div class="card" style="background-color: var(--color4);">
+                <div class="flip" style="background-color: #00a551;">
+                    <div class="card" style="background-color: #00a551;">
                         <div class="front">
                             <span class="fs-1"><i class="fas fa-people-carry"></i></span>
                             <h4 class="fw-bold">Trabajo en equipo</h4>
@@ -277,8 +265,8 @@
                 </div>
             </div>
             <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: #46c9e0;">
-                    <div class="card" style="background-color: #46c9e0;">
+                <div class="flip" style="background-color:  var(--color2);">
+                    <div class="card" style="background-color: var(--color2);">
                         <div class="front">
                             <span class="fs-1"><i class="fas fa-gem"></i></span>
                             <h4 class="fw-bold">Respeto</h4>
@@ -291,8 +279,8 @@
                 </div>
             </div>
             <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: var(--color4);">
-                    <div class="card" style="background-color: var(--color4);">
+                <div class="flip" style="background-color: #00a551;">
+                    <div class="card" style="background-color: #00a551;">
                         <div class="front">
                             <span class="fs-1"><i class="fas fa-heartbeat"></i></span>
                             <h4 class="fw-bold">Honestidad</h4>
@@ -305,8 +293,8 @@
                 </div>
             </div>
             <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: #46c9e0;">
-                    <div class="card" style="background-color: #46c9e0;">
+                <div class="flip" style="background-color: var(--color2);">
+                    <div class="card" style="background-color: var(--color2);">
                         <div class="front">
                             <span class="fs-1"><i class="fas fa-praying-hands"></i> </span>
                             <h4 class="fw-bold">Inclusión</h4>

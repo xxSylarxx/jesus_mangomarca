@@ -2,8 +2,8 @@
 
 /* colores web */
 :root {
-  --color1: #24287f;
-  --color2: #008fd1;
+  --color1: #cf4440;
+  --color2: rgba(224,177,6,255);
   --color3: #ff7315;
   --color4: #2f3ec4;
 }
@@ -89,7 +89,7 @@ header #escudo {
 
 header #logotipo {
   font-family: "Roboto Slab", serif;
-  margin-left: 4.8em;
+  margin-left: 3.5em;
   font-size: 1.2em;
   color: #f9f8fc;
 }

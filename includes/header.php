@@ -3,16 +3,16 @@
 <header class="fixed-top" id="header">
     <div class="bar-sup">
         <div class="ms-auto">
-            <a href="https://api.whatsapp.com/send?phone=91937715907" target="_blank"><i class="fab fa-whatsapp"></i> 937 715 907</a>
-            <a href="mailto:informes@pitagorassjl.edu.pe" class="mx-3"><i class="far fa-envelope"></i> informes@pitagorassjl.edu.pe</a>
+            <a href="https://api.whatsapp.com/send?phone=91937715907" target="_blank"><i class="fab fa-whatsapp"></i> 983 330 558</a>
+            <a href="mailto:djacademico2020@gmail.com" class="mx-3"><i class="far fa-envelope"></i> djacademico2020@gmail.com</a>
             <a href="https://pitagorassjl.cubicol.pe/principal/login" target="_blank" class="ms-3"><i class="fas fa-globe-americas"></i> Intranet</a>
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="./">
-            <img src="./img/icons/escudo.png" height="140" id="escudo">
+            <img src="./img/icons/escudo.png" height="122" id="escudo">
             <div id="logotipo">
-                <h4 class="text-uppercase">Colegio<br>Pitagoras SJL</h4>
+                <h4 class="text-uppercase" style="text-align: center;">Asociación Educativa<br>"De Jesús"</h4>
             </div>
         </a>
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,7 @@
                 <li class="nav-item fw-bold">
                     <a class="nav-link" href="noticias.php">Noticias</a>
                 </li>
-                <li class="nav-item fw-bold" style="background-color: #46c9e0; border-radius: 10px;">
+                <li class="nav-item fw-bold" style="background-color: #2d3192; border-radius: 10px;">
                     <a class="nav-link" href="admision.php" >Admisión</a>
                 </li>
             </ul>
