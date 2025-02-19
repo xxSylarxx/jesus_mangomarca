@@ -99,9 +99,12 @@ header .btn-header
 {
   background-color: var(--color1);
    border-radius: 10px;
-   color: white!important;
 }
 
+header .btn-header a
+{
+ color: white!important;
+}
 
 .navbar-light .navbar-nav .nav-link {
   color: var(--color1);
