@@ -12,7 +12,7 @@
         <a class="navbar-brand" href="./">
             <img src="./img/icons/escudo.png" height="122" id="escudo">
             <div id="logotipo">
-                <h4 class="text-uppercase" style="text-align: center;">Asociación Educativa<br>"De Jesús"</h4>
+                <h4 class="text-uppercase" style="text-align: center;color: var(--color1);">Asociación Educativa<br>"De Jesús"</h4>
             </div>
         </a>
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,8 +41,8 @@
                 <li class="nav-item fw-bold">
                     <a class="nav-link" href="noticias.php">Noticias</a>
                 </li>
-                <li class="nav-item fw-bold" style="background-color: #2d3192; border-radius: 10px;">
-                    <a class="nav-link" href="admision.php" >Admisión</a>
+                <li class="btn-header nav-item fw-bold">
+                    <a class="nav-link" href="admision.php"  >Admisión</a>
                 </li>
             </ul>
         </div>
