@@ -19,6 +19,32 @@
     <script src="./assets/js/bootstrap.min.js"></script>
 
     <style>
+        #elegirnos .card {
+            vertical-align: middle;
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            transition-duration: 0.3s;
+        }
+
+        #elegirnos .card:hover {
+            transform: translateY(-6px);
+        }
+
+        #elegirnos .card-body {
+            height: 120px;
+        }
+
+        #elegirnos {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #elegirnos h6 {
+            font-weight: bold;
+            text-align: justify;
+            margin-bottom: 0px;
+        }
         #redes {
             position: fixed;
             width: 45px;
@@ -228,8 +254,114 @@
     </section>
 
     <br><br><br>
-
-    <section class="container" id="servicios">
+    <section class="container " id="elegirnos">
+        <div class="row py-5">
+            <h2 class="text-center" style="margin-bottom: 4rem; color: var(--color2);">¿Por Qué Elegirnos?</h2>
+            <div class="col-md">
+                <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color4)">
+                    <div class="row g-0">
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="https://jesussalvador.edu.pe//assets/img/icons/1_centro educativo.gif" height="80">
+                        </div>
+                        <!-- <div class="col-md-10" style="background-color: var(--color4); border-radius: 10;"> -->
+                        <div class="col-md-10">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <p class="card-text ">Nuestro propósito es articular la educación de los tres niveles educativos con una educación superior exitosa.</p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color3)">
+                    <div class="row g-0">
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="https://jesussalvador.edu.pe//assets/img/icons/2_valores cristianos.gif" height="80">
+                        </div>
+                        <div class="col-md-10" s="">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <p class="card-text ">Brindamos una formación con sólidos valores cristianos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color2)">
+                    <div class="row g-0">
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="https://jesussalvador.edu.pe//assets/img/icons/3_metodologia activa.gif" height="80">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <p class="card-text ">Utilizamos una metodología activa y participativa.sfdsfdsfsdf</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color1)">
+                    <div class="row g-0">
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="https://jesussalvador.edu.pe//assets/img/icons/4_proyectos innovadores.gif" height="80">
+                        </div>
+                        <div class="col-md-10">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <p class="card-text ">Los estudiantes son protagonistas de su aprendizaje a través de proyectos innovadores.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color1)">
+                    <div class="row g-0">
+                        <div class="col-md-10">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <p class="card-text ">Nuestro propósito es articular la educación de los tres niveles educativos con una educación superior exitosa.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="https://jesussalvador.edu.pe//assets/img/icons/5_educación superior exitosa.gif" height="80">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color2)">
+                    <div class="row g-0">
+                        <div class="col-md-10">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <p class="card-text ">Contamos con menciones honrosas de universidades con prestigio a nivel nacional.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="https://jesussalvador.edu.pe//assets/img/icons/6_menciones honrosas.gif" height="80">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color3)">
+                    <div class="row g-0">
+                        <div class="col-md-10">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <p class="card-text ">El nivel académico de nuestros egresados proyecta una exitosa experiencia en sus estudios superiores.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="https://jesussalvador.edu.pe//assets/img/icons/7_premio.gif" height="80">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color4)">
+                    <div class="row g-0">
+                        <div class="col-md-10">
+                            <div class="card-body d-flex justify-content-center align-items-center">
+                                <p class="card-text ">Desarrollo y logros de las competencias del Currículo Nacional.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="https://jesussalvador.edu.pe//assets/img/icons/8_Curriculo nacional.gif" height="80">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="container" id="servicios">
         <div class="separador">
             <div class="sep_box"><i class="fas fa-laptop"></i></div>
             <div class="sep_title">Servicios tecnológicos</div>
@@ -244,7 +376,7 @@
                     loop></video>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <br><br><br>
 
