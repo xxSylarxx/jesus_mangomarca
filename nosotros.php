@@ -98,8 +98,8 @@
     <section class="container" id="valores">
         <div class="row justify-content-center">
             <div class="col-lg-6 p-0">
-                <div class="flip" style="background-color: #00a551;">
-                    <div class="card" style="background-color: #00a551;">
+                <div class="flip" style="background-color:var(--color1);">
+                    <div class="card" style="background-color:var(--color1);">
                         <div class="front">
                             <span class="fs-1"><i class="fas fa-globe"></i></span>
                             <h4 class="fw-bold">Misión</h4>
@@ -113,14 +113,14 @@
                 </div>
             </div>
             <div class="col-lg-6 p-0">
-                <div class="flip" style="background-color: var(--color2)">
-                    <div class="card" style="background-color: var(--color2)">
-                        <div class="front">
-                            <span class="fs-1"><i class="fas fa-eye"></i></span>
-                            <h4 class="fw-bold">Visión</h4>
+                <div class="flip" style="background-color: var(--color5);">
+                    <div class="card" style="background-color: var(--color5);">
+                        <div style="border: 2px solid var(--color1);" class="front">
+                            <span style="color: var(--color1);" class="fs-1"><i class="fas fa-eye"></i></span>
+                            <h4 style="color: var(--color1);"class="fw-bold">Visión</h4>
                         </div>
-                        <div class="back">
-                            <span>
+                        <div style="border: 2px solid var(--color1);"class="back">
+                            <span style="color: var(--color1);"> 
                             Ser comunidad educativa que promueve activamente un entorno inclusivo donde todos los miembros se sientan valorados, donde los estudiantes vivencien la exploración y el intercambio de diversas experiencias de aprendizaje y transformen la sociedad a través de nuestra educación.
                             </span>
                         </div>
