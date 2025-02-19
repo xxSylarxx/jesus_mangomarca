@@ -65,11 +65,14 @@
             border: 2px solid #ececec;
             padding: 0.5em;
         }
+        .img_presentacion{
+            filter:drop-shadow(5px 5px 5px);
+        }
     </style>
 
     <?php include_once './includes/header.php'; ?>
 
-    <div class="container-fluid bg-plomo">
+    <div class="container-fluid bg-plomo pb-5">
         <br><br><br>
         <section class="container">
             <div class="separador">
@@ -79,7 +82,7 @@
             <br><br>
             <div class="row d-flex align-items-center justify-content-around">
                 <div class="col-lg-7">
-                    <img src="./img/web/nosotros-interna.png" width="100%" alt="">
+                    <img class="img_presentacion" src="./img/web/foto_nosotros.png" width="100%" alt="">
                 </div>
                 <div class="col-lg-4 mt-3">
                     <p class="text-justify m-0 line">

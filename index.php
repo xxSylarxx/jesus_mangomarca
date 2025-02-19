@@ -217,32 +217,32 @@
                 <div class="sep_box text-white" style="border-color: white;"><i class="fas fa-graduation-cap"></i></div>
                 <div class="sep_title text-white">Niveles</div>
             </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-lg-3 my-3">
+            <div class="row mt-4 pt-4 d-flex">
+                <div class="col-lg-4 my-3">
                     <div class="card-niveles">
                         <div class="thumb">
                             <a href="inicial.php">
-                                <img src="./img/web/inicial.jpg" width="100%" />
+                                <img src="./img/web/boton_inicial.png" width="100%">
                                 <span>INICIAL</span>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 my-3">
+                <div class="col-lg-4 my-3">
                     <div class="card-niveles">
                         <div class="thumb">
                             <a href="primaria.php">
-                                <img src="./img/web/primaria.jpg" width="100%" />
+                                <img src="./img/web/boton_primaria.png" width="100%">
                                 <span>PRIMARIA</span>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 my-3">
+                <div class="col-lg-4 my-3">
                     <div class="card-niveles">
                         <div class="thumb">
                             <a href="secundaria.php">
-                                <img src="./img/web/secundaria.png" width="100%" />
+                                <img src="./img/web/boton_secundaria.png" width="100%">
                                 <span>SECUNDARIA</span>
                             </a>
                         </div>
