@@ -182,64 +182,7 @@
     <br><br><br>
 
     <section class="container-fluid" id="valores">
-        <div class="row justify-content-center">
-            <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: #00a551;">
-                    <div class="card" style="background-color: #00a551;">
-                        <div class="front">
-                            <span class="fs-1"><i class="fas fa-people-carry"></i></span>
-                            <h4 class="fw-bold">Trabajo en equipo</h4>
-                        </div>
-                        <div class="back">
-                            <span>Fomenta un sentido de lealtad, seguridad y autoestima que satisface las necesidades
-                                individuales de los integrantes</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: var(--color2);">
-                    <div class="card" style="background-color:var(--color2);">
-                        <div class="front">
-                            <span class="fs-1"><i class="fas fa-gem"></i></span>
-                            <h4 class="fw-bold">Respeto</h4>
-                        </div>
-                        <div class="back">
-                            <span>Reconocer el valor de cada persona y su propiedad, permitiendo que la sociedad viva en
-                                paz y en sana convivencia</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: #00a551;">
-                    <div class="card" style="background-color: #00a551;">
-                        <div class="front">
-                            <span class="fs-1"><i class="fas fa-heartbeat"></i></span>
-                            <h4 class="fw-bold">Honestidad</h4>
-                        </div>
-                        <div class="back">
-                            <span>Desarrollar acciones humanas con rectitud, transparencia y sentido de pertenencia. La
-                                honestidad en nuestras acciones</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: var(--color2);">
-                    <div class="card" style="background-color: var(--color2);">
-                        <div class="front">
-                            <span class="fs-1"><i class="fas fa-praying-hands"></i> </span>
-                            <h4 class="fw-bold">Inclusión</h4>
-                        </div>
-                        <div class="back">
-                            <span>Valorar la diversidad social, que hace parte de nuestro entorno y asumir un compromiso
-                                significativo otorgando las mismas oportunidades</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <?php include_once './includes/valores.php'; ?>
     </section>
 
     <br><br><br>

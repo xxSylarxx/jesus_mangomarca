@@ -121,14 +121,14 @@ header .btn-header a
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-bottom: 3px solid var(--color4);
+  border-bottom: 3px solid var(--color1);
 }
 
 .separador > .sep_box {
   width: 50px;
   height: 48px;
   text-align: center;
-  border: 3px solid var(--color4);
+  border: 3px solid var(--color1);
   border-bottom: none;
   margin-right: 15px;
   padding-top: 8.5px;

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -45,6 +44,7 @@
             text-align: justify;
             margin-bottom: 0px;
         }
+
         #elegirnos .card {
             vertical-align: middle;
             transform: perspective(1px) translateZ(0);
@@ -71,6 +71,7 @@
             text-align: justify;
             margin-bottom: 0px;
         }
+
         #redes {
             position: fixed;
             width: 45px;
@@ -91,48 +92,7 @@
             background-color: var(--color1);
         }
 
-        #valores .flip {
-            height: 172px;
-            padding: 0.6em;
-        }
-
-        #valores .card {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            text-align: center;
-            transition: transform 1s;
-            transform-style: preserve-3d;
-        }
-
-        #valores .flip:nth-child(1):hover .card {
-            transform: rotateY(180deg);
-        }
-
-        #valores .front,
-        #valores .back {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            backface-visibility: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            cursor: default;
-        }
-
-        #valores .front {
-            color: #fff;
-            border: 2px solid #ececec;
-        }
-
-        #valores .back {
-            color: white;
-            transform: rotateY(180deg);
-            border: 2px solid #ececec;
-            padding: 0.5em;
-        }
+       
 
         #noticias .card {
             border-color: #fff;
@@ -220,17 +180,17 @@
                 <!--<p class="text-justify line">
                     <b>Estimados alumnos y padres de familia.</b>
                 </p>-->
-     
+
                 <p class="text-justify line">
-                Es un honor recibirlos en este nuevo año académico 2025. Cada uno de ustedes es parte fundamental de nuestra institución, y juntos construimos un ambiente de aprendizaje, respeto y crecimiento. Este es un espacio donde cada día tiene el potencial de ser una nueva oportunidad para aprender.
-                <br>A los nuevos estudiantes, les extendemos una cálida bienvenida. Este es el lugar donde podrán desafiarse a sí mismos, desarrollar sus talentos y forjar un futuro brillante. A nuestros estudiantes más experimentados, les agradecemos su compromiso y dedicación. Al personal docente y administrativo, gracias por su esfuerzo continuo para ofrecer una educación de calidad. Cada uno de ustedes juega un papel crucial en el éxito de nuestra comunidad educativa
+                    Es un honor recibirlos en este nuevo año académico 2025. Cada uno de ustedes es parte fundamental de nuestra institución, y juntos construimos un ambiente de aprendizaje, respeto y crecimiento. Este es un espacio donde cada día tiene el potencial de ser una nueva oportunidad para aprender.
+                    <br>A los nuevos estudiantes, les extendemos una cálida bienvenida. Este es el lugar donde podrán desafiarse a sí mismos, desarrollar sus talentos y forjar un futuro brillante. A nuestros estudiantes más experimentados, les agradecemos su compromiso y dedicación. Al personal docente y administrativo, gracias por su esfuerzo continuo para ofrecer una educación de calidad. Cada uno de ustedes juega un papel crucial en el éxito de nuestra comunidad educativa
 
                 </p>
             </div>
             <div class="col-lg-6 text-end my-auto">
-               <div style="display:flex;justify-content:center;align-items:center;">
+                <div style="display:flex;justify-content:center;align-items:center;">
                     <img src="./img/web/bienvenido1.png" class="rounded shadow" width="80%" alt="portada_bienvenida">
-               </div>
+                </div>
             </div>
         </div>
     </section>
@@ -291,9 +251,12 @@
                         </div>
                         <!-- <div class="col-md-10" style="background-color: var(--color4); border-radius: 10;"> -->
                         <div class="col-md-10">
-                            <div class="card-body d-flex justify-content-center align-items-center">
-                                <p class="card-text ">Nuestro propósito es articular la educación de los tres niveles educativos con una educación superior exitosa.</p>
-                                <br>
+                            <div class="card-body" style="display:flex;justify-content:center;align-items:center;">
+
+                                <div>
+                                    <li>Aulas cómodas con equipos multimedia</li>
+                                    <li>Pizarras interactivas, laboratorios con equipos multimedia</li>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -304,8 +267,11 @@
                             <img src="https://jesussalvador.edu.pe//assets/img/icons/2_valores cristianos.gif" height="80">
                         </div>
                         <div class="col-md-10" s="">
-                            <div class="card-body d-flex justify-content-center align-items-center">
-                                <p class="card-text ">Brindamos una formación con sólidos valores cristianos.</p>
+                            <div class="card-body"  style="display:flex;justify-content:center;align-items:center;" > 
+                                <div>
+                                <li>Psicólogos escolares para apoyo emocional.</li>
+                                <li>Programas contra el bullying y educación en convivencia.</li>
+                               </div>
                             </div>
                         </div>
                     </div>
@@ -313,34 +279,39 @@
                 <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color2)">
                     <div class="row g-0">
                         <div class="col-md-2 d-flex justify-content-center align-items-center">
-                            <img src="https://jesussalvador.edu.pe//assets/img/icons/3_metodologia activa.gif" height="80">
+                            <img src="https://jesussalvador.edu.pe//assets/img/icons/8_Curriculo nacional.gif" height="80">
                         </div>
                         <div class="col-md-10">
-                            <div class="card-body d-flex justify-content-center align-items-center">
-                                <p class="card-text ">Utilizamos una metodología activa y participativa.sfdsfdsfsdf</p>
+                            <div class="card-body" style="display:flex;justify-content:center;align-items:center;" >
+                                <div>
+                                <li>Educación personalizada según el ritmo de aprendizaje.</li>
+                                <li> Clases interactivas con proyectos y dinámicas. </li>
+                              </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color1)">
+                <!-- <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color1)">
                     <div class="row g-0">
                         <div class="col-md-2 d-flex justify-content-center align-items-center">
                             <img src="https://jesussalvador.edu.pe//assets/img/icons/4_proyectos innovadores.gif" height="80">
                         </div>
                         <div class="col-md-10">
                             <div class="card-body d-flex justify-content-center align-items-center">
-                                <p class="card-text ">Los estudiantes son protagonistas de su aprendizaje a través de proyectos innovadores.</p>
+                                <p class="card-text "></p>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="col-md">
                 <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color1)">
                     <div class="row g-0">
                         <div class="col-md-10">
-                            <div class="card-body d-flex justify-content-center align-items-center">
-                                <p class="card-text ">Nuestro propósito es articular la educación de los tres niveles educativos con una educación superior exitosa.</p>
+                            <div class="card-body" style="display:flex;justify-content:center;align-items:center;">
+                                <div>
+                                <p class="card-text "> • Metodologías de enseñanza innovadoras.</p>
+                             </div>
                             </div>
                         </div>
                         <div class="col-md-2 d-flex justify-content-center align-items-center">
@@ -351,8 +322,11 @@
                 <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color2)">
                     <div class="row g-0">
                         <div class="col-md-10">
-                            <div class="card-body d-flex justify-content-center align-items-center">
-                                <p class="card-text ">Contamos con menciones honrosas de universidades con prestigio a nivel nacional.</p>
+                            <div class="card-body" style="display:flex;justify-content:center;align-items:center;">
+                                <div>
+                                <li>Educación personalizada según el ritmo de aprendizaje.</li>
+                                <li>Clases interactivas con proyectos y dinámicas</li>
+                              </div>
                             </div>
                         </div>
                         <div class="col-md-2 d-flex justify-content-center align-items-center">
@@ -363,27 +337,30 @@
                 <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color3)">
                     <div class="row g-0">
                         <div class="col-md-10">
+                            <div class="card-body" style="display:flex;justify-content:center;align-items:center;">
+                                <div>
+                                <li>Uso de plataformas digitales para el aprendizaje</li>
+                                <li>Enseñanza de idiomas extranjeros (inglés)</li>
+                             </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 d-flex justify-content-center align-items-center">
+                            <img src="https://jesussalvador.edu.pe//assets/img/icons/3_metodologia activa.gif" height="80">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color4)">
+                    <div class="row g-0">
+                        <div class="col-md-10">
                             <div class="card-body d-flex justify-content-center align-items-center">
-                                <p class="card-text ">El nivel académico de nuestros egresados proyecta una exitosa experiencia en sus estudios superiores.</p>
+                                <p class="card-text "></p>
                             </div>
                         </div>
                         <div class="col-md-2 d-flex justify-content-center align-items-center">
                             <img src="https://jesussalvador.edu.pe//assets/img/icons/7_premio.gif" height="80">
                         </div>
                     </div>
-                </div>
-                <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color4)">
-                    <div class="row g-0">
-                        <div class="col-md-10">
-                            <div class="card-body d-flex justify-content-center align-items-center">
-                                <p class="card-text ">Desarrollo y logros de las competencias del Currículo Nacional.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-2 d-flex justify-content-center align-items-center">
-                            <img src="https://jesussalvador.edu.pe//assets/img/icons/8_Curriculo nacional.gif" height="80">
-                        </div>
-                    </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -403,69 +380,11 @@
             </div>
         </div>
     </section> -->
-    </section> -->
 
     <br><br><br>
 
     <section class="container-fluid" id="valores">
-        <div class="row justify-content-center">
-            <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: #00a551;">
-                    <div class="card" style="background-color: #00a551;">
-                        <div class="front">
-                            <span class="fs-1"><i class="fas fa-people-carry"></i></span>
-                            <h4 class="fw-bold">Trabajo en equipo</h4>
-                        </div>
-                        <div class="back">
-                            <span>Fomenta un sentido de lealtad, seguridad y autoestima que satisface las necesidades
-                                individuales de los integrantes</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color:  var(--color2);">
-                    <div class="card" style="background-color: var(--color2);">
-                        <div class="front">
-                            <span class="fs-1"><i class="fas fa-gem"></i></span>
-                            <h4 class="fw-bold">Respeto</h4>
-                        </div>
-                        <div class="back">
-                            <span>Reconocer el valor de cada persona y su propiedad, permitiendo que la sociedad viva en
-                                paz y en sana convivencia</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: #00a551;">
-                    <div class="card" style="background-color: #00a551;">
-                        <div class="front">
-                            <span class="fs-1"><i class="fas fa-heartbeat"></i></span>
-                            <h4 class="fw-bold">Honestidad</h4>
-                        </div>
-                        <div class="back">
-                            <span>Desarrollar acciones humanas con rectitud, transparencia y sentido de pertenencia. La
-                                honestidad en nuestras acciones</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 p-0">
-                <div class="flip" style="background-color: var(--color2);">
-                    <div class="card" style="background-color: var(--color2);">
-                        <div class="front">
-                            <span class="fs-1"><i class="fas fa-praying-hands"></i> </span>
-                            <h4 class="fw-bold">Inclusión</h4>
-                        </div>
-                        <div class="back">
-                            <span>Valorar la diversidad social, que hace parte de nuestro entorno y asumir un compromiso
-                                significativo otorgando las mismas oportunidades</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <?php include_once './includes/valores.php'; ?>
     </section>
 
     <br><br><br>
@@ -549,7 +468,7 @@
 
     <br><br><br>
 
-    <?php include_once './includes/footer.php'; ?>
+    <?php include_once './includes/valores.php'; ?>
 
 </body>
 
