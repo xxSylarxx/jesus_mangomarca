@@ -45,6 +45,32 @@
             text-align: justify;
             margin-bottom: 0px;
         }
+        #elegirnos .card {
+            vertical-align: middle;
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            transition-duration: 0.3s;
+        }
+
+        #elegirnos .card:hover {
+            transform: translateY(-6px);
+        }
+
+        #elegirnos .card-body {
+            height: 120px;
+        }
+
+        #elegirnos {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #elegirnos h6 {
+            font-weight: bold;
+            text-align: justify;
+            margin-bottom: 0px;
+        }
         #redes {
             position: fixed;
             width: 45px;
@@ -376,6 +402,7 @@
                     loop></video>
             </div>
         </div>
+    </section> -->
     </section> -->
 
     <br><br><br>

@@ -29,7 +29,7 @@
             </div>
             <div class="col-lg-3 my-auto text-white text-center">
                 <p><b>Informes:</b><br> 983330558 <br>014593925 / 016531484</p>
-                <a href="https://maps.app.goo.gl/TxiErVpTADQ6CH6g6" target="_blank" style="color:white;"><p><b>Dirección:</b><br> Av. Mangomarca 499, Lima 15427 </p></a>
+                <a href="https://maps.app.goo.gl/TxiErVpTADQ6CH6g6" target="_blank" style="color:white;"><p><b>Dirección:</b><br> Avenida Mangomarca 499/451 URB. Mangormaca/S.J.L </p></a>
                 <br>
                 <a href="#" class="text-white">
                     <img src="./img/icons/book_reclamo.png" height="50" class="mb-2">
