@@ -256,7 +256,7 @@
     <br><br><br>
     <section class="container " id="elegirnos">
         <div class="row py-5">
-            <h2 class="text-center" style="margin-bottom: 4rem; color: var(--color2);">¿Por Qué Elegirnos?s</h2>
+            <h2 class="text-center" style="margin-bottom: 4rem; color: var(--color2);">¿Por Qué Elegirnos?</h2>
             <div class="col-md">
                 <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color4)">
                     <div class="row g-0">
