@@ -113,8 +113,8 @@
                 </div>
             </div>
             <div class="col-lg-6 p-0">
-                <div class="flip" style="background-color: var(--color5);">
-                    <div class="card" style="background-color: var(--color5);">
+                <div class="flip" style="background-color: var(--color2);">
+                    <div class="card" style="background-color: var(--color2);">
                         <div style="border: 2px solid var(--color1);" class="front">
                             <span style="color: var(--color1);" class="fs-1"><i class="fas fa-eye"></i></span>
                             <h4 style="color: var(--color1);"class="fw-bold">Visión</h4>
