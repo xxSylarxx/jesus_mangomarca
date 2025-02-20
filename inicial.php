@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -18,6 +17,30 @@
     <script src="./assets/js/bootstrap.min.js"></script>
 
     <style>
+        .course-list {
+            list-style: none;
+            padding: 0;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        /* .course-item {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+ */
+        .course-item i {
+            color: var(--color1);
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+
         /* para ocultar los iconos por defecto*/
         .accordion-button:not(.collapsed)::after {
             content: "";
@@ -83,6 +106,7 @@
         .accordion-button:focus {
             box-shadow: none;
         }
+
         .bg-plomo {
             background-color: #f4f5f7;
         }
@@ -101,8 +125,8 @@
 
         .icon:hover p {
             color: #ff7315;
-        }
 
+        }
 
         .hvr-grow {
             display: inline-block;
@@ -192,57 +216,94 @@
                 <div class="col-lg-6 mt-lg-0 pt-5">
                     <div>
                         <p class="text-justify line" style="font-size: 19.5px;">
-                        El nivel inicial es una etapa clave en el desarrollo infantil, ya que sienta las bases para el aprendizaje futuro y el desarrollo emocional, social y cognitivo. Esta propuesta busca ofrecer un ambiente seguro, afectuoso y estimulante donde los niños puedan explorar, descubrir y aprender a través del juego y la experimentación y sentar las bases para el nivel primaria.
+                            El nivel inicial es una etapa clave en el desarrollo infantil, ya que sienta las bases para el aprendizaje futuro y el desarrollo emocional, social y cognitivo. Esta propuesta busca ofrecer un ambiente seguro, afectuoso y estimulante donde los niños puedan explorar, descubrir y aprender a través del juego y la experimentación y sentar las bases para el nivel primaria.
                         </p>
                     </div>
                     <br>
+                    <div class="my-2">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="course-list">
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Personal Social
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Comunicación
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Ciencia y Tecnología
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Psicomotriz
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="course-list">
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Matemática
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Arte/Danza
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Ingles
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Psicomotocidad
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
                     <div class="mt-lg-6">
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush1" style="border-color:red;">
-                                <button class="accordion-button collapsed" style="background-color: #f4f5f7; " type="button" data-bs-toggle="collapse" data-bs-target="#item1" aria-expanded="false" aria-controls="item1">
-                                    <div class="w-100 title-pe">Nuestros Objetivos.</div>
-                                    <div class="boton-icono"><i class="fas fa-chevron-circle-down"></i></div>
-                                </button>
-                            </h2>
-                            <div id="item1" class="accordion-collapse collapse" aria-labelledby="flush1" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body" style="background-color: #f4f5f7;">
-                                    <div class="d-flex flex-row">
-                                        <span class="me-3"><i class="fas fa-circle"></i></span>
-                                        <span>
-                                            <p>
-                                            Fomentar el aprendizaje a través del juego.
-                                            </p>
-                                        </span>
-                                    </div>
-                                    <div class="d-flex flex-row">
-                                        <span class="me-3"><i class="fas fa-circle"></i></span>
-                                        <span>
-                                            <p>
-                                           Desarrollar el lenguaje, la creatividad y la autonomía.
-                                            </p>
-                                        </span>
-                                    </div>
-                                    <div class="d-flex flex-row">
-                                        <span class="me-3"><i class="fas fa-circle"></i></span>
-                                        <span>
-                                            <p>
-                                            Promover valores y habilidades sociales.
-                                            </p>
-                                        </span>
-                                    </div>
-                                    <div class="d-flex flex-row">
-                                        <span class="me-3"><i class="fas fa-circle"></i></span>
-                                        <span>
-                                            <p>
-                                           Involucrara a la familia en la educación.
-                                            </p>
-                                        </span>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush1" style="border-color:red;">
+                                    <button class="accordion-button collapsed" style="background-color: #f4f5f7; " type="button" data-bs-toggle="collapse" data-bs-target="#item1" aria-expanded="false" aria-controls="item1">
+                                        <div class="w-100 title-pe">Nuestros Objetivos.</div>
+                                        <div class="boton-icono"><i class="fas fa-chevron-circle-down"></i></div>
+                                    </button>
+                                </h2>
+                                <div id="item1" class="accordion-collapse collapse" aria-labelledby="flush1" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body" style="background-color: #f4f5f7;">
+                                        <div class="d-flex flex-row">
+                                            <span class="me-3"><i class="fas fa-circle"></i></span>
+                                            <span>
+                                                <p>
+                                                    Fomentar el aprendizaje a través del juego.
+                                                </p>
+                                            </span>
+                                        </div>
+                                        <div class="d-flex flex-row">
+                                            <span class="me-3"><i class="fas fa-circle"></i></span>
+                                            <span>
+                                                <p>
+                                                    Desarrollar el lenguaje, la creatividad y la autonomía.
+                                                </p>
+                                            </span>
+                                        </div>
+                                        <div class="d-flex flex-row">
+                                            <span class="me-3"><i class="fas fa-circle"></i></span>
+                                            <span>
+                                                <p>
+                                                    Promover valores y habilidades sociales.
+                                                </p>
+                                            </span>
+                                        </div>
+                                        <div class="d-flex flex-row">
+                                            <span class="me-3"><i class="fas fa-circle"></i></span>
+                                            <span>
+                                                <p>
+                                                    Involucrara a la familia en la educación.
+                                                </p>
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                       </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush2" style="border-color:red;">
                                 <button class="accordion-button collapsed" style="background-color: #f4f5f7; " type="button" data-bs-toggle="collapse" data-bs-target="#item2" aria-expanded="false" aria-controls="item2">
@@ -256,7 +317,7 @@
                                         <span class="me-3"><i class="fas fa-circle"></i></span>
                                         <span>
                                             <p>
-                                            Aprendizaje lúdico y experiencial.
+                                                Aprendizaje lúdico y experiencial.
                                             </p>
                                         </span>
                                     </div>
@@ -264,7 +325,7 @@
                                         <span class="me-3"><i class="fas fa-circle"></i></span>
                                         <span>
                                             <p>
-                                            Actividades artísticas, musicales y motoras.
+                                                Actividades artísticas, musicales y motoras.
                                             </p>
                                         </span>
                                     </div>
@@ -272,7 +333,7 @@
                                         <span class="me-3"><i class="fas fa-circle"></i></span>
                                         <span>
                                             <p>
-                                            Exploración del entorno y experimentación sensorial.
+                                                Exploración del entorno y experimentación sensorial.
                                             </p>
                                         </span>
                                     </div>
@@ -280,73 +341,129 @@
                                         <span class="me-3"><i class="fas fa-circle"></i></span>
                                         <span>
                                             <p>
-                                            Desarrollo del lenguaje mediante cuentos y canciones.
+                                                Desarrollo del lenguaje mediante cuentos y canciones.
                                             </p>
                                         </span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                       </div>
-                       <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush3" style="border-color:red;">
-                                <button class="accordion-button collapsed" style="background-color: #f4f5f7; " type="button" data-bs-toggle="collapse" data-bs-target="#item3" aria-expanded="false" aria-controls="item3">
-                                    <div class="w-100 title-pe">Rol de los padres Jesusinos.</div>
-                                    <div class="boton-icono"><i class="fas fa-chevron-circle-down"></i></div>
-                                </button>
-                            </h2>
-                            <div id="item3" class="accordion-collapse collapse" aria-labelledby="flush3" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body" style="background-color: #f4f5f7;">
-                                    <div class="d-flex flex-row">
-                                        <span class="me-3"><i class="fas fa-circle"></i></span>
-                                        <span>
-                                            <p>
-                                            Participación activa en actividades y refuerzo en el hogar.
-                                            </p>
-                                        </span>
-                                    </div>
-                                    
-                                    
-                                    
-                                </div>
-                            </div>
-                        </div>
-                       
-
-                        
-
                     </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush3" style="border-color:red;">
+                            <button class="accordion-button collapsed" style="background-color: #f4f5f7; " type="button" data-bs-toggle="collapse" data-bs-target="#item3" aria-expanded="false" aria-controls="item3">
+                                <div class="w-100 title-pe">Rol de los padres Jesusinos.</div>
+                                <div class="boton-icono"><i class="fas fa-chevron-circle-down"></i></div>
+                            </button>
+                        </h2>
+                        <div id="item3" class="accordion-collapse collapse" aria-labelledby="flush3" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body" style="background-color: #f4f5f7;">
+                                <div class="d-flex flex-row">
+                                    <span class="me-3"><i class="fas fa-circle"></i></span>
+                                    <span>
+                                        <p>
+                                            Participación activa en actividades y refuerzo en el hogar.
+                                        </p>
+                                    </span>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
                 </div>
             </div>
-        </section>
+    </div>
+    </section>
     </div>
 
     <br><br><br>
 
     <section class="container-fluid" id="valores">
-    <?php include_once './includes/valores.php'; ?>
+        <?php include_once './includes/valores.php'; ?>
     </section>
 
     <br><br><br>
-   
+
 
     <section class="container" id="servicios">
         <div class="separador">
             <div class="sep_box"><i class="fas fa-laptop"></i></div>
-            <div class="sep_title">Servicios tecnológicos</div>
+            <div class="sep_title">Talleres</div>
         </div>
-        <div class="row justify-content-around mt-4 pt-4">
-            <div class="col-lg-5 my-2">
-                <img src="https://gestion.pe/resizer/LOnv9z2WGZfpAtpXcBa2gJYl8aY=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/SNAX3ENF5BBS3IFCYFAOU4JDZU.jpg" class="rounded shadow" width="100%" height="290">
-            </div>
-            <div class="col-lg-5 my-2">
-                <video src="./img/video/VIDEO_CUBICOL.mp4" class="shadow rounded" width="100%" autoplay muted loop></video>
+        <br>
+        <br>
+        <br>
+        <div class="container-fluid" style="margin-top: -60px;">
+            <div class="row mx-0 d-flex justify-content-center">
+                <div class="col-md-4 pt-5">
+                    <div class="card bg-1 text-white h-100" style="background-color: var(--color3);">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./img/icons/arte.png" class="mr-3 w-100">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4>Arte/Danza</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-5">
+                    <div class="card bg-1 text-white h-100" style="background-color: var(--color1);">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./img/icons/ingles.png" class="mr-3 w-100">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4>Inglés</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-5">
+                    <div class="card bg-1 text-white h-100" style="background-color: var(--color3);">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./img/icons/computadora.png" class="mr-3 w-100">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4>Psicomotocidad</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-5">
+                    <div class="card bg-1 text-white h-100" style="background-color: var(--color3);">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <br><br><br>
 
+
+    <?php include_once './complementarios.php'; ?>
+        <div class="separador">
+            <div class="sep_box"><i class="fas fa-laptop"></i></div>
+            <div class="sep_title">Servicios Complementarios</div>
+        </div>
+
+
+        <br><br><br>
+
+        
     <?php include_once './includes/footer.php'; ?>
 
 </body>

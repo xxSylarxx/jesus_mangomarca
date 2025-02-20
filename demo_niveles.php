@@ -205,7 +205,7 @@
                     <p class="text-justify"> Nuestros niños serán capaces de relacionarse, comunicarse, descubrir y responder a situaciones retadoras.</p>
 
                     <br>
-                    <div class="my-2">
+                        <div class="my-2">
                         <div class="row">
                             <div class="col-md-6">
                                 <ul class="course-list">
@@ -360,7 +360,7 @@
             </div>
         </div>
     </section><br><br>
-    <?php include_once './includes/complementarios.php'; ?>
+    <?php include_once './complementarios.php'; ?>
 
     <br><br><br>
 

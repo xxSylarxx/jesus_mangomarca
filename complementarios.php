@@ -56,12 +56,12 @@
                 <ul class="timeline">
                     <li>
                         <div class="ml-3 pb-1 aos-init aos-animate" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
-                            <p>Recuperación pedagógica.</p>
+                            <p>Recuperación Académica.</p>
                         </div>
                     </li>
                     <li>
                         <div class="ml-3 pb-1 aos-init aos-animate" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
-                            <p>Departamento psicológico.</p>
+                            <p>Departamento Psicologia.</p>
                         </div>
                     </li>
                     <li>
@@ -69,21 +69,21 @@
                             <p>Monitoreo académico.</p>
                         </div>
                     </li>
-                    <li>
+                    <!-- <li>
                         <div class="ml-3 pb-1 aos-init aos-animate" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
                             <p>SAANEE.</p>
                         </div>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                         <div class="ml-3 pb-1 aos-init aos-animate" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                             <p>Taller artístico.</p>
                         </div>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                         <div class="ml-3 pb-1 aos-init aos-animate" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
                             <p>Taller deportivo.</p>
                         </div>
-                    </li>
+                    </li> -->
 
                 </ul>
                 <br><br>
