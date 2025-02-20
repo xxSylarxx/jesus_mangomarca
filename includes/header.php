@@ -36,7 +36,7 @@
                     </div>
                 </li>
                 <li class="nav-item fw-bold">
-                    <a class="nav-link" href="propuesta.php">Propuesta Educativa</a>
+                    <a class="nav-link" href="propuesta.php">Propuesta Pedagógica</a>
                 </li>
                 <li class="nav-item fw-bold">
                     <a class="nav-link" href="noticias.php">Noticias</a>

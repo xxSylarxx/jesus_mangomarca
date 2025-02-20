@@ -39,8 +39,8 @@
         </div>
     </div>
     <div class="bar-inf mt-3">
-        <a href="">Asociación Educativa "De Jesús"  <i class="far fa-copyright"></i> 2021</a>
-        <a href="#" class="ms-auto">Desarrollado por Sensoft Solutions</a>
+        <a href="">Asociación Educativa "De Jesús"  <i class="far fa-copyright"></i> 2025</a>
+        <a href="#" class="ms-auto">#</a>
     </div>
 </footer>
 

@@ -468,7 +468,7 @@
 
     <br><br><br>
 
-    <?php include_once './includes/valores.php'; ?>
+    <?php include_once './includes/footer.php'; ?>
 
 </body>
 

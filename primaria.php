@@ -75,7 +75,7 @@
 
     <section class="container-fluid p-0">
         <div>
-            <img src="./img/web/portada_primaria.jpg" width="100%" alt="">
+            <img src="./img/web/portada_prim.png" width="100%" alt="">
         </div>
     </section>
 
@@ -88,14 +88,12 @@
             </div>
             <div class="row justify-content-between mt-5">
                 <div class="col-lg-5 d-flex">
-                    <img src="./img/web/primaria-interna.png" width="100%">
+                    <img src="./img/web/propuesta_prim.jpg" width="100%">
                 </div>
                 <div class="col-lg-6 mt-5 mt-lg-0">
                     <div>
                         <p class="text-justify line" style="font-size: 19.5px;">
-                            En el nivel de primaria se brinda una educación integral,
-                            formando en valores, y potenciando las habilidades y capacidades de
-                            manera progresiva.
+                        La educación primaria es una etapa clave para el desarrollo del pensamiento crítico, la autonomía y los valores. Se busca formar estudiantes activos, creativos y con habilidades para enfrentar los desafíos del mundo.
                         </p>
                     </div>
                     <div class="mt-5 tableover">

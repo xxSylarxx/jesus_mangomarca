@@ -75,7 +75,7 @@
 
     <section class="container-fluid p-0">
         <div>
-            <img src="./img/web/portada_secundaria.jpg" width="100%" alt="">
+            <img src="./img/web/portada_secundaria.png" width="100%" alt="">
         </div>
     </section>
 
@@ -88,14 +88,12 @@
             </div>
             <div class="row justify-content-around mt-5">
                 <div class="col-lg-5 d-flex">
-                    <img src="./img/web/secundaria-interna.png" width="85%">
+                    <img src="./img/web/Propuesta_sec.png" width="85%">
                 </div>
                 <div class="col-lg-6 mt-5 mt-lg-0">
                     <div>
                         <p class="text-justify line" style="font-size: 19.5px;">
-                            En el nivel de secundaria está orientado a la preparación pre universitaria,
-                            se desarrollan los conocimientos, habilidades y hábitos que necesita el estudiante
-                            para poder superar los retos en su vida profesional y personal.
+                            Nuestra propuesta educativa para la Asociación Educativa es de fomentar un ambiente de aprendizaje dinámico y participativo que desarrolle habilidades críticas, creativas y colaborativas en los estudiantes de secundaria.
                         </p>
                     </div>
                     <div class="mt-5 tableover">
@@ -243,7 +241,7 @@
     </section>
 
     <br><br><br>
-
+    <?php include_once './includes/footer.php'; ?>
 
 </body>
 
