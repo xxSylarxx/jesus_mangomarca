@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/icons/escudo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/icons/icono.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/web.css">
@@ -96,7 +96,7 @@
         </div>
         <br>
         <div>
-            <p class="text-justify">Bienvenidos al proceso de admisión 2022 del Colegio Pitagoras Sjl.
+            <p class="text-justify">Bienvenidos al proceso de admisión 2025 del Colegio Asociación Educativa "De Jesus".
                 Por favor llene el siguiente formulario para recibir información completa,
                 con gusto nos contactaremos con usted.
             </p>
@@ -181,7 +181,7 @@
     <footer class="container-fluid p-0">
         <div class="bar-inf mt-3">
             <a href="">Asociación Educativa "De Jesús" <i class="far fa-copyright"></i> 2025</a>
-            <a href="#" class="ms-auto">Desarrollado por Sensoft Solutions</a>
+            <a href="#" class="ms-auto">"#"</a>
         </div>
     </footer>
 

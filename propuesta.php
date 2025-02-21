@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/icons/escudo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/icons/icono.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/web.css">
@@ -82,6 +82,7 @@
         .accordion-button:focus {
             box-shadow: none;
         }
+        
     </style>
 
     <?php include_once './includes/header.php'; ?>
@@ -93,11 +94,12 @@
                 <div class="sep_box"><i class="fas fa-hotel"></i></div>
                 <div class="sep_title">Propuesta Pedagógica</div>
             </div>
-            <div class="row d-flex justify-content-evenly align-items-center mt-5">
+            <div class="row d-flex justify-content-evenly align-items-center mt-6">
                 <div class="col-lg-4">
                     <img src="./img/web/propuesta_educativa.png" width="90%" alt="">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 mt-lg-0 pt-5"> 
+
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush1" style="border-color:red;">
@@ -382,7 +384,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush7" style="border-color:white;">
                                 <button class="accordion-button collapsed" style="background-color: #f4f5f7;" type="button" data-bs-toggle="collapse" data-bs-target="#item7" aria-expanded="false" aria-controls="item7">
                                     <div class="w-100 title-pe">Certificación de Ingles.</div>
