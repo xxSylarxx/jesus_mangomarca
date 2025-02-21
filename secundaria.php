@@ -68,6 +68,14 @@
             border: 2px solid #ececec;
             padding: 0.5em;
         }
+
+        .card {
+            transition: ease-in-out .8s;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+        }
     </style>
 
     <?php include_once './includes/header.php'; ?>
@@ -88,129 +96,83 @@
             </div>
             <div class="row justify-content-around mt-5">
                 <div class="col-lg-5 d-flex">
-                    <img src="./img/web/Propuesta_sec.png" width="85%">
-                </div>
-                <div class="col-lg-6 mt-5 mt-lg-0">
-                    <div>
-                        <p class="text-justify line" style="font-size: 19.5px;">
-                            Nuestra propuesta educativa para la Asociación Educativa es de fomentar un ambiente de aprendizaje dinámico y participativo que desarrolle habilidades críticas, creativas y colaborativas en los estudiantes de secundaria.
-                        </p>
+                        <img src="./img/web/Propuesta_sec.png" width="85%">
                     </div>
-                    <div class="mt-5 tableover">
-                        <table class="table table-bordered">
-                            <thead class="bg-primary text-white">
-                                <tr>
-                                    <th>Áreas</th>
-                                    <th>Cursos</th>
-                                    <th>Horas</th>
-                                </tr>
-                            </thead>
-                            <tbody>
+                    <div class="col-lg-6 mt-5 mt-lg-0">
+                        <div>
+                            <p class="text-justify line" style="font-size: 19.5px;">
+                                Nuestra propuesta educativa para la Asociación Educativa es de fomentar un ambiente de aprendizaje dinámico y participativo que desarrolle habilidades críticas, creativas y colaborativas en los estudiantes de secundaria.
+                            </p>
+                        </div>
+                        <div class="my-2">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="course-list">
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Desarrollo personal, ciudadanía y cívica
+                                        </li>
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Ciencias Sociales
+                                        </li>
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Educación física
+                                        </li>
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Arte y Cultura
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="course-list">
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Inglés
+                                        </li>
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Ciencia y Tecnología
+                                        </li>
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Física
+                                        </li>
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Química
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-mod-6">
+                                    <ul class="course-list">
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Ciudadanía y Cívica
+                                        </li>
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Comunicación
+                                        </li>
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Educación para el Trabajo
+                                        </li>
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Matemática
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="cold-mod-6">
+                                    <ul class="course-list">
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Educación Religiosa
+                                        </li>
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Talleres
+                                        </li>
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Psicología
+                                        </li>
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Filosofía
+                                        </li>
 
-                                <tr>
-                                    <th rowspan="6">Matemáticas</th>
-                                </tr>
-                                <tr>
-                                    <td>Aritmética</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Geometría</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Álgebra</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Trigonometría</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Razonamiento Matemático</td>
-                                    <td>2</td>
-                                </tr>
-
-                                <tr>
-                                    <th rowspan="5">Comunicación</th>
-                                </tr>
-                                <tr>
-                                    <td>Lenguaje</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Literatura</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Aptitud Verbal</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Comp. Linguística</td>
-                                    <td>2</td>
-                                </tr>
-
-                                <tr>
-                                    <th rowspan="4">Ciencias</th>
-                                </tr>
-                                <tr>
-                                    <td>Biología</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Física</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Química</td>
-                                    <td>2</td>
-                                </tr>
-
-
-                                <tr>
-                                    <th rowspan="5">Sociales</th>
-                                </tr>
-
-                                <tr>
-                                    <td>Historia del Perú</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Historia Universal</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Geografía</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Educ. Cívica</td>
-                                    <td>2</td>
-                                </tr>
-
-                                <tr>
-                                    <th rowspan="4">Cursos</th>
-                                </tr>
-                                <tr>
-                                    <td>Inglés</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Francés</td>
-                                    <td>2</td>
-                                </tr>
-                                <tr>
-                                    <td>Talleres</td>
-                                    <td>2</td>
-                                </tr>
-
-                                <tr>
-                                    <th colspan="2">TOTAL DE HORAS</th>
-                                    <td>30</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -220,7 +182,7 @@
     <br><br><br>
 
     <section class="container-fluid" id="valores">
-    <?php include_once './includes/valores.php'; ?>
+        <?php include_once './includes/valores.php'; ?>
     </section>
 
     <br><br><br>
