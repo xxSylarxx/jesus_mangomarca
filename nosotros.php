@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -18,8 +17,7 @@
     <script src="./assets/js/bootstrap.min.js"></script>
 
     <style>
-
-        .bg-plomo{
+        .bg-plomo {
             background-color: #f4f5f7;
         }
 
@@ -65,8 +63,9 @@
             border: 2px solid #ececec;
             padding: 0.5em;
         }
-        .img_presentacion{
-            filter:drop-shadow(5px 5px 5px);
+
+        .img_presentacion {
+            filter: drop-shadow(5px 5px 5px);
         }
     </style>
 
@@ -77,16 +76,22 @@
         <section class="container">
             <div class="separador">
                 <div class="sep_box"><i class="fas fa-hotel"></i></div>
-                <div class="sep_title">Presentación</div>
+                <div class="sep_title">Reseña Histórica</div>
             </div>
             <br><br>
             <div class="row d-flex align-items-center justify-content-around">
-                <div class="col-lg-7">
-                    <img class="img_presentacion" src="./img/web/foto_nosotros.png" width="100%" alt="">
+                <div class="col-lg-5">
+                    <img class="img_presentacion" src="./img/web/f_resenia.jpg" width="100%" alt="">
+                    <div class="text-center mt-3 pt-5">
+                        <h2 style="color:var(--color1);">¡SIEMPRE UN PASO ADELANTE…!</h2>
+                    </div>
                 </div>
-                <div class="col-lg-4 mt-3">
+                <div class="col-lg-6 mt-3">
                     <p class="text-justify m-0 line">
-                    Somos una Institución Educativa que forma alumnos autónomos, intelectualmente capaces, tolerantes e integradores de la diversidad y que son actores destacados del desarrollo y crecimiento de su entorno, con docentes innovadores, actualizados acorde al avance de la ciencia - tecnología y con vocación de servicio, padres comprometidos en la educación de sus hijos; en una infraestructura moderna y saludable, con directivos líderes pedagógicos fomentando la participación democrática.
+                        La Asociación Educativa Privada “De Jesús”, es una Institución formada por la Promotora la Lic. Aida Elena Escudero Tarazona, para brindar Educación en los Niveles de Inicial, Primaria y Secundaria. El 21 de enero de 1987, se creó los niveles de Inicial y Primaria del 1er grado hasta el cuarto grado, según R.D.Z. Nº 0119-Lima, así mismo se gestionó la Resolución de Ampliación de 5to y 6to grado del Nivel primaria según R.D. USE 03 Nº1014 con fecha 01-03-88, luego de trascurridos cinco años, según la R.D. USE 03 Nº2219 del 01-03-93, se apertura el Nivel Secundaria de Menores.
+                    </p>
+                    <p class="text-justify m-0 line">
+                        Somos una Institución Educativa que forma alumnos autónomos, intelectualmente capaces, tolerantes e integradores de la diversidad y que son actores destacados del desarrollo y crecimiento de su entorno, con docentes innovadores, actualizados acorde al avance de la ciencia - tecnología y con vocación de servicio, padres comprometidos en la educación de sus hijos; en una infraestructura moderna y saludable, con directivos líderes pedagógicos fomentando la participación democrática.
                     </p>
                 </div>
             </div>
@@ -106,7 +111,7 @@
                         </div>
                         <div class="back">
                             <span>
-                            Es acompañar a nuestros estudiantes en su crecimiento humano, espiritual y saludable, para un desempeño superior en la vida a partir del desarrollo de una ética de trabajo, de la autodisciplina, la solidaridad, el respeto por las diferencias y por todas las formas de vida en nuestra comunidad.
+                                Es acompañar a nuestros estudiantes en su crecimiento humano, espiritual y saludable, para un desempeño superior en la vida a partir del desarrollo de una ética de trabajo, de la autodisciplina, la solidaridad, el respeto por las diferencias y por todas las formas de vida en nuestra comunidad.
                             </span>
                         </div>
                     </div>
@@ -117,11 +122,11 @@
                     <div class="card" style="background-color: var(--color5);">
                         <div style="border: 2px solid var(--color1);" class="front">
                             <span style="color: var(--color1);" class="fs-1"><i class="fas fa-eye"></i></span>
-                            <h4 style="color: var(--color1);"class="fw-bold">Visión</h4>
+                            <h4 style="color: var(--color1);" class="fw-bold">Visión</h4>
                         </div>
-                        <div style="border: 2px solid var(--color1);"class="back">
-                            <span style="color: var(--color1);"> 
-                            Ser comunidad educativa que promueve activamente un entorno inclusivo donde todos los miembros se sientan valorados, donde los estudiantes vivencien la exploración y el intercambio de diversas experiencias de aprendizaje y transformen la sociedad a través de nuestra educación.
+                        <div style="border: 2px solid var(--color1);" class="back">
+                            <span style="color: var(--color1);">
+                                Ser comunidad educativa que promueve activamente un entorno inclusivo donde todos los miembros se sientan valorados, donde los estudiantes vivencien la exploración y el intercambio de diversas experiencias de aprendizaje y transformen la sociedad a través de nuestra educación.
                             </span>
                         </div>
                     </div>
@@ -130,6 +135,27 @@
         </div>
     </section>
 
+    <br><br><br>
+    <!-- <div class="container-fluid bg-plomo pb-5">
+        <br><br><br>
+        <section class="container">
+            <div class="separador">
+                <div class="sep_box"><i class="fas fa-hotel"></i></div>
+                <div class="sep_title">Reseña Histíorica</div>
+            </div>
+            <br><br>
+            <div class="row d-flex align-items-center justify-content-around">
+                <div class="col-lg-7">
+                    <img class="img_presentacion" src="./img/web/foto_nosotros.png" width="100%" alt="">
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <p class="text-justify m-0 line">
+                        Somos una Institución Educativa que forma alumnos autónomos, intelectualmente capaces, tolerantes e integradores de la diversidad y que son actores destacados del desarrollo y crecimiento de su entorno, con docentes innovadores, actualizados acorde al avance de la ciencia - tecnología y con vocación de servicio, padres comprometidos en la educación de sus hijos; en una infraestructura moderna y saludable, con directivos líderes pedagógicos fomentando la participación democrática.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div> -->
     <br><br><br>
 
     <?php include_once './includes/footer.php'; ?>
