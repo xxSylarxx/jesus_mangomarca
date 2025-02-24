@@ -250,44 +250,15 @@
                                     <img src="./img/icons/arte.png" class="mr-3 w-100">
                                 </div>
                                 <div class="col-lg-7 my-auto">
-                                    <h4>Arte/Danza</h4>
+                                    <h4>Recuperación Pedagogica</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 pt-5">
-                    <div class="card bg-1 text-white h-100" style="background-color: var(--color1);">
-                        <div class="card-body d-flex">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./img/icons/ingles.png" class="mr-3 w-100">
-                                </div>
-                                <div class="col-lg-7 my-auto">
-                                    <h4>Inglés</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 pt-5">
-                    <div class="card bg-1 text-white h-100" style="background-color: var(--color3);">
-                        <div class="card-body d-flex">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./img/icons/puzzle.png" class="mr-3 w-100">
-                                </div>
-                                <div class="col-lg-7 my-auto">
-                                    <h4>Psicomotricidad</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 pt-5">
-                    <div class="card bg-1 text-white h-100" style="background-color: var(--color3);">
-                    </div>
-                </div>
+                
+                
+                
             </div>
         </div>
     </section>
@@ -311,6 +282,12 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
+                <div>
+                            <p class="text-justify line" style="font-size: 19.5px;">
+                            La educación primaria es una etapa clave para el desarrollo del pensamiento crítico, la autonomía y los valores. Se busca formar estudiantes activos, creativos y con habilidades para enfrentar los desafíos del mundo.
+ 
+                            </p>
+                        </div>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush1" style="border-color:red;">
@@ -418,7 +395,7 @@
 
     <br><br><br>
 
-    </ /?php include_once './complementarios.php' ; ?>
+    <?php include_once './complementarios.php'; ?>
 
     <br><br><br>
 

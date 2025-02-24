@@ -69,21 +69,34 @@
                             <p>Monitoreo académico.</p>
                         </div>
                     </li>
-                    <!-- <li>
-                        <div class="ml-3 pb-1 aos-init aos-animate" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
-                            <p>SAANEE.</p>
+                    <?php
+
+
+                    // Obtener el protocolo (http o https)
+                    $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http";
+
+                    // Obtener el nombre del host (dominio)
+                    $host = $_SERVER['HTTP_HOST'];
+
+                    // Obtener la ruta de la URL
+                    $uri = $_SERVER['REQUEST_URI'];
+
+                    // Construir la URL completa
+                    $url = $protocol . "://" . $host . $uri;
+
+                    $palabra = 'secundaria';
+
+
+                    if (strpos($url, $palabra)) {
+                        echo "<li>
+                        <div class='ml-3 pb-1 aos-init aos-animate' data-aos='fade-right' data-aos-anchor-placement='top-bottom' data-aos-duration='2000'>
+                            <p>Talleres Artisticos</p>
                         </div>
-                    </li> -->
-                    <!-- <li>
-                        <div class="ml-3 pb-1 aos-init aos-animate" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
-                            <p>Taller artístico.</p>
-                        </div>
-                    </li> -->
-                    <!-- <li>
-                        <div class="ml-3 pb-1 aos-init aos-animate" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
-                            <p>Taller deportivo.</p>
-                        </div>
-                    </li> -->
+                    </li>";
+                    } ?>
+
+
+
 
                 </ul>
                 <br><br>

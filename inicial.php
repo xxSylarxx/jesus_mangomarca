@@ -23,19 +23,6 @@
             max-width: 400px;
             margin: 0 auto;
         }
-        
-
-        /* .course-item {
-            background-color: #ffffff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 15px;
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
- */
         .course-item i {
             color: var(--color1);
             margin-right: 10px;
@@ -256,11 +243,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
-
                 </div>
             </div>
     </div>
@@ -337,129 +319,127 @@
     </section>
 
     <br><br><br>
-    <section class="container" id="Propuestas">
+   
+    <section class="container" id="servicios2">
         <div class="separador">
-            <div class="sep_box"><i class="fas fa-graduation-cap"></i></div>
-            <div class="sep_title">Propuesta Nivel Inicial</div>
+            <div class="sep_box"><i class="fas fa-laptop"></i></div>
+            <div class="sep_title">Propuesta Nivel Secundaria</div>
         </div>
+    </section>
 
-        <br><br><br>
+    <br><br><br>
 
-        <div class="mt-lg-6">
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush1" style="border-color:red;">
-                        <button class="accordion-button collapsed"  type="button" data-bs-toggle="collapse" data-bs-target="#item1" aria-expanded="false" aria-controls="item1">
-                            <div class="w-100 title-pe">Nuestros Objetivos.</div>
-                            <div class="boton-icono"><i class="fas fa-chevron-circle-down"></i></div>
-                        </button>
-                    </h2>
-                    <div id="item1" class="accordion-collapse collapse" aria-labelledby="flush1" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <div class="d-flex flex-row">
-                                <span class="me-3"><i class="fas fa-circle"></i></span>
-                                <span>
-                                    <p>
-                                        Fomentar el aprendizaje a través del juego.
-                                    </p>
-                                </span>
+    <section class="container">
+        <div class="col-lg">
+            <div class="row d-flex justify-content-evenly align-items-center mt-5">
+                <div class="col-lg-4">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="./img/web/acordion_inicial.png" width="90%" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush1" style="border-color:red;">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item1" aria-expanded="false" aria-controls="item1">
+                                    <div class="w-100 title-pe">Nuestros Objetivos.</div>
+                                    <div class="boton-icono"><i class="fas fa-chevron-circle-down"></i></div>
+                                </button>
+                            </h2>
+                            <div id="item1" class="accordion-collapse collapse" aria-labelledby="flush1" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="d-flex flex-row">
+                                        <span class="me-3"><i class="fas fa-circle"></i></span>
+                                        <span>
+                                            <p>
+                                            Fomentar el aprendizaje a través del juego.
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <span class="me-3"><i class="fas fa-circle"></i></span>
+                                        <span>
+                                            <p>
+                                            Desarrollar el lenguaje, la creatividad y la autonomía.
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <span class="me-3"><i class="fas fa-circle"></i></span>
+                                        <span>
+                                            <p>
+                                            Promover valores y habilidades sociales
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <span class="me-3"><i class="fas fa-circle"></i></span>
+                                        <span>
+                                            <p>
+                                            Involucrar a la familia en la educación.
+                                            </p>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="d-flex flex-row">
-                                <span class="me-3"><i class="fas fa-circle"></i></span>
-                                <span>
-                                    <p>
-                                        Desarrollar el lenguaje, la creatividad y la autonomía.
-                                    </p>
-                                </span>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush2" style="border-color:white;">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item2" aria-expanded="false" aria-controls="item2">
+                                    <div class="w-100 title-pe">Nuestra Metodología.</div>
+                                    <div class="boton-icono"><i class="fas fa-chevron-circle-down"></i></div>
+                                </button>
+                            </h2>
+                            <div id="item2" class="accordion-collapse collapse" aria-labelledby="flush2" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="d-flex flex-row">
+                                        <span class="me-3"><i class="fas fa-circle"></i></span>
+                                        <span>
+                                            <p>Aprendizaje lúdico y experiencial</p>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <span class="me-3"><i class="fas fa-circle"></i></span>
+                                        <span>
+                                            <p>Actividades artísticas, musicales y motoras.</p>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <span class="me-3"><i class="fas fa-circle"></i></span>
+                                        <span>
+                                            <p>Exploración del entorno y experimentación sensorial</p>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex flex-row">
+                                        <span class="me-3"><i class="fas fa-circle"></i></span>
+                                        <span>
+                                            <p>Desarrollo del lenguaje mediante cuentos y canciones..</p>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="d-flex flex-row">
-                                <span class="me-3"><i class="fas fa-circle"></i></span>
-                                <span>
-                                    <p>
-                                        Promover valores y habilidades sociales.
-                                    </p>
-                                </span>
-                            </div>
-                            <div class="d-flex flex-row">
-                                <span class="me-3"><i class="fas fa-circle"></i></span>
-                                <span>
-                                    <p>
-                                        Involucrara a la familia en la educación.
-                                    </p>
-                                </span>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush3" style="border-color:white;">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item3" aria-expanded="false" aria-controls="item3">
+                                    <div class="w-100 title-pe">Rol de la Familia Jesusina.</div>
+                                    <div class="boton-icono"><i class="fas fa-chevron-circle-down"></i></div>
+                                </button>
+                            </h2>
+                            <div id="item3" class="accordion-collapse collapse" aria-labelledby="flush3" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="d-flex flex-row">
+                                        <span class="me-3"><i class="fas fa-circle"></i></span>
+                                        <span>
+                                            <p>Participación activa en actividades y refuerzo en el hogar.</p>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush2" style="border-color:red;">
-                    <button class="accordion-button collapsed"  type="button" data-bs-toggle="collapse" data-bs-target="#item2" aria-expanded="false" aria-controls="item2">
-                        <div class="w-100 title-pe">Nuestra Metodología.</div>
-                        <div class="boton-icono"><i class="fas fa-chevron-circle-down"></i></div>
-                    </button>
-                </h2>
-                <div id="item2" class="accordion-collapse collapse" aria-labelledby="flush2" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body" >
-                        <div class="d-flex flex-row">
-                            <span class="me-3"><i class="fas fa-circle"></i></span>
-                            <span>
-                                <p>
-                                    Aprendizaje lúdico y experiencial.
-                                </p>
-                            </span>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <span class="me-3"><i class="fas fa-circle"></i></span>
-                            <span>
-                                <p>
-                                    Actividades artísticas, musicales y motoras.
-                                </p>
-                            </span>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <span class="me-3"><i class="fas fa-circle"></i></span>
-                            <span>
-                                <p>
-                                    Exploración del entorno y experimentación sensorial.
-                                </p>
-                            </span>
-                        </div>
-                        <div class="d-flex flex-row">
-                            <span class="me-3"><i class="fas fa-circle"></i></span>
-                            <span>
-                                <p>
-                                    Desarrollo del lenguaje mediante cuentos y canciones.
-                                </p>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="flush3" style="border-color:red;">
-                <button class="accordion-button collapsed"  type="button" data-bs-toggle="collapse" data-bs-target="#item3" aria-expanded="false" aria-controls="item3">
-                    <div class="w-100 title-pe">Rol de los padres Jesusinos.</div>
-                    <div class="boton-icono"><i class="fas fa-chevron-circle-down"></i></div>
-                </button>
-            </h2>
-            <div id="item3" class="accordion-collapse collapse" aria-labelledby="flush3" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body" >
-                    <div class="d-flex flex-row">
-                        <span class="me-3"><i class="fas fa-circle"></i></span>
-                        <span>
-                            <p>
-                                Participación activa en actividades y refuerzo en el hogar.
-                            </p>
-                        </span>
-                    </div>
-
-
-
-                </div>
-            </div>
-        </div>
         </div>
     </section>
 
