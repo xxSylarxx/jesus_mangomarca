@@ -162,11 +162,7 @@
                         <img src="./img/web/bienvenidos_sec.png" width="85%">
                     </div>
                     <div class="col-lg-6 mt-5 mt-lg-0">
-                        <div>
-                            <p class="text-justify line" style="font-size: 19.5px;">
-                                Nuestra propuesta educativa para la Asociación Educativa es de fomentar un ambiente de aprendizaje dinámico y participativo que desarrolle habilidades críticas, creativas y colaborativas en los estudiantes de secundaria.
-                            </p>
-                        </div>
+                    
                         <div class="my-2">
                             <div class="row">
                                 <div class="col-md-7">
@@ -292,7 +288,7 @@
    <section class="container" id="servicios2">
         <div class="separador">
             <div class="sep_box"><i class="fas fa-laptop"></i></div>
-            <div class="sep_title">Propuesta Nivel Secundaria</div>
+            <div class="sep_title">Ejes educativos para el Nivel Secundaria</div>
         </div>
     </section>
     
@@ -300,12 +296,12 @@
     <section class="container">
         <div class="col-lg">
             <div class="row d-flex justify-content-evenly align-items-center mt-5">
-                <div class="col-lg-4">
+                <div class="col-lg-5">
                     <div class="d-flex justify-content-center align-items-center">
-                        <img src="./img/web/propuesta_sec.png" width="90%" alt="">
+                        <img src="./img/web/propuesta_sec_of.jpg" width="90%" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                 <div>
                             <p class="text-justify line" style="font-size: 19.5px;">
                             Nuestra propuesta educativa para la Asociación Educativa es de fomentar un ambiente de aprendizaje dinámico y participativo que desarrolle habilidades críticas, creativas y colaborativas en los estudiantes de secundaria.

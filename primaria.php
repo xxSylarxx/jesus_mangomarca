@@ -170,17 +170,16 @@
                 <div class="sep_title">Bienvenidos al Nivel Primaria</div>
             </div>
             <div class="row justify-content-between mt-5">
-                <div class="col-lg-5 d-flex">
+                <div class="col-lg-6 d-flex">
                     <img src="./img/web/propuesta_prim.jpg" width="100%">
                 </div>
-                <div class="col-lg-6 mt-5 mt-lg-0">
+                <div class="col-lg-7 mt-5 mt-lg-0">
                     <div>
                         <p class="text-justify line" style="font-size: 19.5px;">
                             La educación primaria es una etapa clave para el desarrollo del pensamiento crítico, la autonomía y los valores. Se busca formar estudiantes activos, creativos y con habilidades para enfrentar los desafíos del mundo.
                         </p>
                     </div>
 
-                    <br><br><br>
 
                     <div class="my-2">
                         <div class="row">
