@@ -26,7 +26,7 @@
 
     <section class="container-fluid p-0">
         <div class="">
-            <img src="./img/web/Portada_admision.png" class="w-100" alt="...">
+            <img src="./img/web/portada_admision.png" class="w-100" alt="...">
         </div>
     </section>
 
