@@ -5,7 +5,7 @@
         <div class="ms-auto">
             <a href="https://api.whatsapp.com/send?phone=983330558" target="_blank"><i class="fab fa-whatsapp"></i> 983 330 558</a>
             <a href="mailto:djacademico2020@gmail.com" class="mx-3"><i class="far fa-envelope"></i> djacademico2020@gmail.com</a>
-            <a href="https://pitagorassjl.cubicol.pe/principal/login" target="_blank" class="ms-3"><i class="fas fa-globe-americas"></i> Intranet</a>
+            <a href="https://asociaciondejesus.cubicol.pe/principal/login" target="_blank" class="ms-3"><i class="fas fa-globe-americas"></i> Intranet</a>
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light">

@@ -41,7 +41,7 @@
         <div class="cuerpo-admision py-5">
             <div>
                 <p class="text-justify">
-                <div style="text-align: center;"><span style="color: #e03e2d;">REQUISITOS, PLAZOS Y PROCEDIMIENTO PARA EL INGRESO DE NUEVOS ESTUDIANTES</span></div>
+                <div style="text-align: center;"><span style="color: #e03e2d; font-weight: bold;">REQUISITOS, PLAZOS Y PROCEDIMIENTO PARA EL INGRESO DE NUEVOS ESTUDIANTES</span></div>
                 <br><br>
                 <ul>
                     <li style="text-align: left;">Cumplir la edad normativa (nacimiento hasta el 31 de marzo) <span style="color: #e03e2d;">para alumnos de 3 a&ntilde;os del Nivel Inicial y 1er grado del Nivel Primaria</span></li>
@@ -54,7 +54,7 @@
                     <li style="text-align: left;"><span style="color: #000000;">Firma del Contrato de Servicios Educativos para el A&ntilde;o Escolar 2025</span></li>
                 </ul>
                 <div>&nbsp;</div>
-                <div><span style="color: #e03e2d;">EN CASO PROVENGA DE OTRA INSTITUCI&Oacute;N EDUCATIVA DEBER&Aacute; PRESENTAR, ADEM&Aacute;S:</span></div>
+                <div><span style="color: #e03e2d; font-weight: bold;">EN CASO PROVENGA DE OTRA INSTITUCI&Oacute;N EDUCATIVA DEBER&Aacute; PRESENTAR, ADEM&Aacute;S:</span></div>
                 <br>
                 <ul>
                     <li>Certificado de estudios emitida por el SIAGIE</li>
@@ -68,7 +68,7 @@
                     <li>Tiene solo 3 d&iacute;as para presentar todos documentos</li>
                 </ul>
                 <div>&nbsp;</div>
-                <div><span style="color: #e03e2d;">REQUISITOS PARA ESTUDIANTES DEL COLEGIO</span></div>
+                <div><span style="color: #e03e2d;"><b>REQUISITOS PARA ESTUDIANTES DEL COLEGIO</b></span></div>
                 <br>
                 <ul>
                     <li>Estar al dia en sus pagos&nbsp;</li>
@@ -79,12 +79,12 @@
                 <div>&nbsp;</div>
                 <div>Una vez presentado todos estos requisitos se registrar&aacute; a los alumnos nuevos al <span style="color: #e03e2d;">SISTEMA CUBICOL</span> y su usuario contrase&ntilde;a ser&aacute; remitido al correo de padre de familia, y los alumnos antiguos se ratificar&aacute; sus datos en el sistema.</div>
                 <div>&nbsp;</div>
-                <div style="text-align: center;"><span style="color: #e03e2d;">PLAZO PARA ESTUDIANTES NUEVOS</span></div>
+                <div style="text-align: center;"><span style="color: #e03e2d;"><b>PLAZO PARA ESTUDIANTES NUEVOS</b></span></div>
                 <br>
                 <div style="text-align: center;">&nbsp;</div>
                 <div style="text-align: left;"><span style="color: #000000;">El Proceso de Matr&iacute;cula para Estudiantes nuevos se inicia el martes 06 de enero 2025 hasta que se cubra el n&uacute;mero de vacantes indicadas.</span></div>
                 <div style="text-align: left;">&nbsp;</div>
-                <div style="text-align: center;"><span style="color: #e03e2d;">PLAZO PARA ESTUDIANTES ANTIGUOS</span></div>
+                <div style="text-align: center;"><span style="color: #e03e2d;"><b>PLAZO PARA ESTUDIANTES ANTIGUOS</b></span></div>
                 <br>
                 <div style="text-align: left;">&nbsp;</div>
                 <div style="text-align: left;">
@@ -99,6 +99,7 @@
             <div class="sep_box"><i class="fas fa-hotel"></i></div>
             <div class="sep_title">Proceso de Admisión 2025</div>
         </div>
+        <br>
         <br>
         <div>
             <p class="text-justify">Bienvenidos al proceso de admisión 2025 del Colegio Asociación Educativa "De Jesus".
