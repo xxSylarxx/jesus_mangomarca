@@ -345,8 +345,8 @@
                         <div class="col-md-10">
                             <div class="card-body" style="display:flex;justify-content:center;align-items:center;">
                                 <div>
-                                    <li>Educación personalizada según el ritmo de aprendizaje.</li>
-                                    <li>Clases interactivas con proyectos y dinámicas</li>
+                                    <li>Asesoría académica y orientación vocacional.</li>
+                                    <li>Becas y apoyos financieros.</li>
                                 </div>
                             </div>
                         </div>

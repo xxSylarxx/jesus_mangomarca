@@ -359,7 +359,7 @@
                                     <div class="d-flex flex-row">
                                         <span class="me-3"><i class="fas fa-circle"></i></span>
                                         <span>
-                                            <p>Implementar un sistema de evaluación que contemple no solo exámenes, sino también proyectos, presentaciones y autoevaluaciones, para valorar el proceso de aprendizaje.</p>
+                                            <p>Incluir programas que desarrollen la inteligencia emocional, ayudando a los estudiantes a gestionar sus emociones y a mejorar sus relaciones interpersonales.</p>
                                         </span>
                                     </div>
                                 </div>
@@ -377,7 +377,7 @@
                                     <div class="d-flex flex-row">
                                         <span class="me-3"><i class="fas fa-circle"></i></span>
                                         <span>
-                                            <p>Se promoverá la participación de los padres en el proceso educativo a través de reuniones, talleres y apoyo en casa.</p>
+                                            <p>Implementar un sistema de evaluación que contemple no solo exámenes, sino también proyectos, presentaciones y autoevaluaciones, para valorar el proceso de aprendizaje. </p>
                                         </span>
                                     </div>
                                 </div>

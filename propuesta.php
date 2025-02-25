@@ -114,7 +114,7 @@
                                         <span class="me-3"><i class="fas fa-circle"></i></span>
                                         <span>
                                             <p>
-                                            Nuestro colegio cuenta con amplias aulas equipadas con sistema multimedia e internet
+                                            Nuestro colegio cuenta con amplias aulas equipadas con sistema multimedia e internet.
                                             </p>
                                         </span>
                                     </div>
