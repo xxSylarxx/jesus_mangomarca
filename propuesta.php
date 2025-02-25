@@ -41,7 +41,7 @@
 
         /* color y tamaño */
         .accordion-button div.boton-icono {
-            color: var(--color2);
+            color: var(--color1);
             font-size: 20px;
             transition: -webkit-transform 0.2s ease-in-out;
             transition: transform 0.2s ease-in-out;
@@ -49,12 +49,12 @@
         }
 
         .accordion-button {
-            color: var(--color2);
+            color: var(--color1);
             font-size: 17.5px;
         }
 
         .accordion-button:hover {
-            color: var(--color3);
+            color: var(--color1);
         }
 
         .accordion-flush .accordion-item {
@@ -94,8 +94,8 @@
                 <div class="sep_box"><i class="fas fa-hotel"></i></div>
                 <div class="sep_title">Propuesta Pedagógica</div>
             </div>
-            <div class="row d-flex justify-content-evenly align-items-center mt-6">
-                <div class="col-lg-4">
+            <div class="row d-flex justify-content-evenly align-items-center mt-5">
+                <div class="col-lg-6">
                     <img src="./img/web/propuesta_educativa.png" width="90%" alt="">
                 </div>
                 <div class="col-lg-6 mt-lg-0 pt-5"> 
