@@ -107,8 +107,8 @@
         }
 
         #noticias img.cover {
-           /*  height: 210px; */
-           height: 350px;
+            /*  height: 210px; */
+            height: 350px;
             object-fit: cover;
         }
 
@@ -399,15 +399,28 @@
 
     <br><br><br>
 
+
     <section class="container" id="noticias">
+
+        <!-- <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="shortcut icon" href="./img/icons/icono.ico" type="image/x-icon">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+            <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="./assets/css/web.css">
+            <title>Asociación Educativa "De Jesús"</title>
+        </head> -->
         <div class="separador">
             <div class="sep_box"><i class="far fa-newspaper"></i></div>
             <div class="sep_title">Noticias</div>
         </div>
+
         <div class="row mt-4 pt-3">
             <div class="col-md-4 my-3 px-3">
                 <div class="card h-100">
                     <img src="./img/galeria/portada_noticia1.jpg" class="cover" width="100%">
+                    <img src="./img/galeria/Icono.ico" class="cover"
                     <div class="card-body pb-2">
                         <a href="./view.php?id=1">
                             <h5>Inicio de clases 2025</h5>
@@ -470,7 +483,7 @@
             <div class="col-lg">
                 <div class="card border-0 shadow">
                     <div class="card-body p-3 pb-0">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.4219959622037!2d-76.9852525!3d-12.0144424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5bfbb41a1cd%3A0x23eef1a984b4fd8d!2sAv.%20Mangomarca%20499%2C%20Lima%2015427!5e0!3m2!1ses!2spe!4v1740496971405!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="shadow-sm"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.4219959622037!2d-76.9852525!3d-12.0144424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5bfbb41a1cd%3A0x23eef1a984b4fd8d!2sAv.%20Mangomarca%20499%2C%20Lima%2015427!5e0!3m2!1ses!2spe!4v1740496971405!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="shadow-sm"></iframe>
                     </div>
                 </div>
             </div>
