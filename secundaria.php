@@ -17,7 +17,7 @@
     <script src="./assets/js/bootstrap.min.js"></script>
 
     <style>
-         .course-list {
+        .course-list {
             list-style: none;
             padding: 0;
             max-width: 400px;
@@ -29,6 +29,7 @@
             margin-right: 10px;
             font-size: 1.2rem;
         }
+
         .bg-plomo {
             background-color: #f4f5f7;
         }
@@ -80,6 +81,7 @@
             border: 2px solid #ececec;
             padding: 0.5em;
         }
+
         .accordion-button:not(.collapsed)::after {
             content: "";
             background-image: url("");
@@ -158,76 +160,76 @@
                 <div class="sep_title">Bienvenidos al Nivel Secundaria</div>
             </div>
             <div class="row justify-content-around mt-5">
-                <div class="col-lg-5 d-flex"> 
-                        <img src="./img/web/bienvenidos_sec.png" width="85%">
-                    </div>
-                    <div class="col-lg-6 mt-5 mt-lg-0">
-                    
-                        <div class="my-2">
-                            <div class="row">
-                                <div class="col-md-7">
-                                    <ul class="course-list">
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Desarrollo personal, ciudadanía y cívica
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Ciencias Sociales
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Educación física
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Arte y Cultura
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Ciudadanía y Cívica
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Comunicación
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Educación para el Trabajo
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Matemática
-                                        </li> 
-                                    </ul>
-                                </div>
-                                <div class="col-md-5">
-                                    <ul class="course-list">
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Inglés
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Ciencia y Tecnología
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Física
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Química
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Educación Religiosa
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Talleres
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Psicología
-                                        </li>
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Filosofía
-                                        </li>
-                                    </ul>
-                                </div>
-                                
+                <div class="col-lg-5 d-flex">
+                    <img src="./img/web/bienvenidos_sec.png" width="85%">
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+
+                    <div class="my-2">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <ul class="course-list">
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Desarrollo personal, ciudadanía y cívica
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Ciencias Sociales
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Educación física
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Arte y Cultura
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Ciudadanía y Cívica
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Comunicación
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Educación para el Trabajo
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Matemática
+                                    </li>
+                                </ul>
                             </div>
+                            <div class="col-md-5">
+                                <ul class="course-list">
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Inglés
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Ciencia y Tecnología
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Física
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Química
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Educación Religiosa
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Talleres
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Psicología
+                                    </li>
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Filosofía
+                                    </li>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+    </div>
+    </section>
     </div>
 
     <br><br><br>
@@ -278,35 +280,34 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
 
-   <br><br><br>
+    <br><br><br>
 
-   <section class="container" id="servicios2">
+    <section class="container" id="servicios2">
         <div class="separador">
             <div class="sep_box"><i class="fas fa-laptop"></i></div>
             <div class="sep_title">Ejes educativos para el Nivel Secundaria</div>
         </div>
     </section>
-    
-    <br><br><br>
+    <br>
     <section class="container">
         <div class="col-lg">
-            <div class="row d-flex justify-content-evenly align-items-center mt-5">
+            <div class="row d-flex justify-content-evenly align-items-center pt-5 mt-4">
                 <div class="col-lg-5">
                     <div class="d-flex justify-content-center align-items-center">
-                        <img src="./img/web/propuesta_sec_of.jpg" width="90%" alt="">
+                        <img src="./img/web/propuesta_sec_of.jpg" width="100%" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7">
-                <div>
-                            <p class="text-justify line" style="font-size: 19.5px;">
+                    <div>
+                        <p class="text-justify line" style="font-size: 19.5px;">
                             Nuestra propuesta educativa para la Asociación Educativa es de fomentar un ambiente de aprendizaje dinámico y participativo que desarrolle habilidades críticas, creativas y colaborativas en los estudiantes de secundaria.
-                            </p>
-                        </div>
+                        </p>
+                    </div>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush1" style="border-color:red;">
@@ -321,10 +322,10 @@
                                         <span class="me-3"><i class="fas fa-circle"></i></span>
                                         <span>
                                             <p>
-                                            Implementar técnicas como el aprendizaje basado en proyectos (ABP), donde los estudiantes trabajen en proyectos interdisciplinarios que aborden problemas reales de su comunidad
+                                                Implementar técnicas como el aprendizaje basado en proyectos (ABP), donde los estudiantes trabajen en proyectos interdisciplinarios que aborden problemas reales de su comunidad
                                             </p>
                                         </span>
-                                    </div>                                                                                                  
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -342,7 +343,7 @@
                                         <span>
                                             <p>Incorporar herramientas digitales en el aula, como plataformas de aprendizaje en línea.</p>
                                         </span>
-                                    </div>                                                                   
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -360,8 +361,8 @@
                                         <span>
                                             <p>Implementar un sistema de evaluación que contemple no solo exámenes, sino también proyectos, presentaciones y autoevaluaciones, para valorar el proceso de aprendizaje.</p>
                                         </span>
-                                    </div>                                                                                     
-                               </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -388,7 +389,7 @@
         </div>
     </section>
 
-    
+
     <?php include_once './complementarios.php'; ?>
 
     <br><br><br>

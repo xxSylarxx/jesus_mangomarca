@@ -170,10 +170,10 @@
                 <div class="sep_title">Bienvenidos al Nivel Primaria</div>
             </div>
             <div class="row justify-content-between mt-5">
-                <div class="col-lg-6 d-flex">
+                <div class="col-lg-5 d-flex">
                     <img src="./img/web/propuesta_prim.jpg" width="100%">
                 </div>
-                <div class="col-lg-7 mt-5 mt-lg-0">
+                <div class="col-lg-6 mt-5 mt-lg-4">
                     <div>
                         <p class="text-justify line" style="font-size: 19.5px;">
                             La educación primaria es una etapa clave para el desarrollo del pensamiento crítico, la autonomía y los valores. Se busca formar estudiantes activos, creativos y con habilidades para enfrentar los desafíos del mundo.
@@ -217,8 +217,25 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                    
+                        <div class="my-2">
+                            <br>
+                            <div class="row">
+                                <div class="col">
+                                    <h5 style="color:var(--color1);">Taller:</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="course-list">
+                                        <li class="course-item my-2">
+                                            <i class="fas fa-check-circle"></i> Recuperación Pedagogica
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
         </section>
     </div>
 
@@ -229,9 +246,9 @@
     </section>
 
 
-    <br><br><br>
+    <br><br>
 
-    <section class="container" id="servicios">
+    <!-- <section class="container" id="servicios">
         <div class="separador">
             <div class="sep_box"><i class="fas fa-laptop"></i></div>
             <div class="sep_title">Talleres</div>
@@ -260,7 +277,7 @@
                 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <br><br><br>
 
@@ -271,22 +288,21 @@
         </div>
     </section>
 
-    <br><br><br>
+    <br>
     <section class="container">
         <div class="col-lg">
             <div class="row d-flex justify-content-evenly align-items-center mt-5">
                 <div class="col-lg-4">
                     <div class="d-flex justify-content-center align-items-center">
-                        <img src="./img/web/primaria_prop2.png" width="90%" alt="">
+                        <img src="./img/web/primaria_prop2.png" width="100%" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6">
-                <div>
-                            <p class="text-justify line" style="font-size: 19.5px;">
+                    <div>
+                        <p class="text-justify line" style="font-size: 19.5px;">
                             La educación primaria es una etapa clave para el desarrollo del pensamiento crítico, la autonomía y los valores. Se busca formar estudiantes activos, creativos y con habilidades para enfrentar los desafíos del mundo.
- 
-                            </p>
-                        </div>
+                        </p>
+                    </div>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush1" style="border-color:red;">
@@ -392,11 +408,11 @@
         </div>
     </section>
 
-    <br><br><br>
+    <br>
 
     <?php include_once './complementarios.php'; ?>
 
-    <br><br><br>
+    <br>
 
     <?php include_once './includes/footer.php'; ?>
 

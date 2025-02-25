@@ -42,6 +42,7 @@
             <div>
                 <p class="text-justify">
                 <div style="text-align: center;"><span style="color: #e03e2d;">REQUISITOS, PLAZOS Y PROCEDIMIENTO PARA EL INGRESO DE NUEVOS ESTUDIANTES</span></div>
+                <br><br>
                 <ul>
                     <li style="text-align: left;">Cumplir la edad normativa (nacimiento hasta el 31 de marzo) <span style="color: #e03e2d;">para alumnos de 3 a&ntilde;os del Nivel Inicial y 1er grado del Nivel Primaria</span></li>
                     <li style="text-align: left;"><span style="color: #000000;">Copia de DNI de los padres&nbsp;</span></li>
@@ -54,6 +55,7 @@
                 </ul>
                 <div>&nbsp;</div>
                 <div><span style="color: #e03e2d;">EN CASO PROVENGA DE OTRA INSTITUCI&Oacute;N EDUCATIVA DEBER&Aacute; PRESENTAR, ADEM&Aacute;S:</span></div>
+                <br>
                 <ul>
                     <li>Certificado de estudios emitida por el SIAGIE</li>
                     <li>Ficha &uacute;nica de matr&iacute;cula generada del SIAGIE</li>
@@ -67,6 +69,7 @@
                 </ul>
                 <div>&nbsp;</div>
                 <div><span style="color: #e03e2d;">REQUISITOS PARA ESTUDIANTES DEL COLEGIO</span></div>
+                <br>
                 <ul>
                     <li>Estar al dia en sus pagos&nbsp;</li>
                     <li>Actualizar la ficha Interna de Matricula&nbsp;</li>
@@ -77,10 +80,12 @@
                 <div>Una vez presentado todos estos requisitos se registrar&aacute; a los alumnos nuevos al <span style="color: #e03e2d;">SISTEMA CUBICOL</span> y su usuario contrase&ntilde;a ser&aacute; remitido al correo de padre de familia, y los alumnos antiguos se ratificar&aacute; sus datos en el sistema.</div>
                 <div>&nbsp;</div>
                 <div style="text-align: center;"><span style="color: #e03e2d;">PLAZO PARA ESTUDIANTES NUEVOS</span></div>
+                <br>
                 <div style="text-align: center;">&nbsp;</div>
                 <div style="text-align: left;"><span style="color: #000000;">El Proceso de Matr&iacute;cula para Estudiantes nuevos se inicia el martes 06 de enero 2025 hasta que se cubra el n&uacute;mero de vacantes indicadas.</span></div>
                 <div style="text-align: left;">&nbsp;</div>
                 <div style="text-align: center;"><span style="color: #e03e2d;">PLAZO PARA ESTUDIANTES ANTIGUOS</span></div>
+                <br>
                 <div style="text-align: left;">&nbsp;</div>
                 <div style="text-align: left;">
                     <div>El Proceso de Matr&iacute;cula para estudiantes antiguos se realizar&aacute; a partir del LUNES 06 DE ENERO 2025 hasta el VIERNES 31 DE ENERO 2025, seg&uacute;n el CRONOGRAMA respectivo. De no efectuarse la renovaci&oacute;n del Contrato de Servicios Educativos en los plazos descritos, la vacante se pondr&aacute; a disposici&oacute;n de los estudiantes nuevos.</div>

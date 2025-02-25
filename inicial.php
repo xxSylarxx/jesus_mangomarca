@@ -323,11 +323,11 @@
     <section class="container" id="servicios2">
         <div class="separador">
             <div class="sep_box"><i class="fas fa-laptop"></i></div>
-            <div class="sep_title">Propuesta Nivel Secundaria</div>
+            <div class="sep_title">Propuesta Nivel Inicial</div>
         </div>
     </section>
 
-    <br><br><br>
+    <br>
 
     <section class="container">
         <div class="col-lg">
@@ -337,7 +337,7 @@
                         <img src="./img/web/acordion_inicial.png" width="90%" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush1" style="border-color:red;">
@@ -413,7 +413,7 @@
                                     <div class="d-flex flex-row">
                                         <span class="me-3"><i class="fas fa-circle"></i></span>
                                         <span>
-                                            <p>Desarrollo del lenguaje mediante cuentos y canciones..</p>
+                                            <p>Desarrollo del lenguaje mediante cuentos y canciones.</p>
                                         </span>
                                     </div>
                                 </div>
@@ -443,7 +443,7 @@
         </div>
     </section>
 
-    <br><br><br>
+    <br>
 
 
     <?php include_once './complementarios.php'; ?>
