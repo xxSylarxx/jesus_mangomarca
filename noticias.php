@@ -71,12 +71,12 @@
             <div class="sep_title">Noticias</div>
         </div>
         <div class="row mt-4 pt-3">
-            <div class="col-md-3 my-3 px-3">
+            <div class="col-md-4 my-3 px-3">
                 <div class="card h-100">
-                    <img src="./img/noticias/noticia_1 .jpg" class="cover" width="100%">
+                    <img src="./img/galeria/portada_noticia1.jpg" class="cover" width="100%">
                     <div class="card-body pb-2">
-                        <a href="#">
-                            <h5>ciclo repaso 2021</h5>
+                        <a href="./view.php?id=1">
+                            <h5>Inicio de clases 2025</h5>
                         </a>
                         <div class="detalle">
                             <!-- text comentario -->
@@ -84,16 +84,16 @@
                     </div>
                     <div class="card-footer">
                         <i class="fas fa-calendar-alt"></i>
-                        <span class="ms-2">13-10-2021</span>
+                        <span class="ms-2">25-02-2025</span>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 my-3 px-3">
+            <div class="col-md-4 my-3 px-3">
                 <div class="card h-100">
-                    <img src="./img/noticias/noticia_2 .png" class="cover" width="100%">
+                    <img src="./img/galeria/portada_noticia2.jpg" class="cover" width="100%">
                     <div class="card-body pb-2">
-                        <a href="#">
-                            <h5>feliz día del niño</h5>
+                        <a href="./view.php?id=2">
+                            <h5>Dile No a la Piratería</h5>
                         </a>
                         <div class="detalle">
                             <!-- text comentario -->
@@ -101,16 +101,16 @@
                     </div>
                     <div class="card-footer">
                         <i class="fas fa-calendar-alt"></i>
-                        <span class="ms-2">13-10-2021</span>
+                        <span class="ms-2">21-02-2025</span>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 my-3 px-3">
+            <div class="col-md-4 my-3 px-3">
                 <div class="card h-100">
-                    <img src="./img/noticias/noticia_3 .jpg" class="cover" width="100%">
+                    <img src="./img/galeria/portada_noticia3.jpg" class="cover" width="100%">
                     <div class="card-body pb-2">
-                        <a href="#">
-                            <h5>Matricula abierta Repaso 2021</h5>
+                        <a href="./view.php?id=3">
+                            <h5>Matrículas Abiertas 2025</h5>
                         </a>
                         <div class="detalle">
                             <!-- text comentario -->
@@ -118,27 +118,11 @@
                     </div>
                     <div class="card-footer">
                         <i class="fas fa-calendar-alt"></i>
-                        <span class="ms-2">13-10-2021</span>
+                        <span class="ms-2">17-12-2025</span>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 my-3 px-3">
-                <div class="card h-100">
-                    <img src="./img/noticias/noticia_4.png" class="cover" width="100%">
-                    <div class="card-body pb-2">
-                        <a href="#">
-                            <h5>día internacional de la familia</h5>
-                        </a>
-                        <div class="detalle">
-                            <!-- text comentario -->
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <i class="fas fa-calendar-alt"></i>
-                        <span class="ms-2">13-10-2021</span>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </section>
 

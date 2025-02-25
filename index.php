@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/icons/inicio.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/icons/icono.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/web.css">
@@ -92,7 +92,7 @@
             background-color: var(--color1);
         }
 
-       
+
 
         #noticias .card {
             border-color: #fff;
@@ -107,7 +107,8 @@
         }
 
         #noticias img.cover {
-            height: 210px;
+           /*  height: 210px; */
+           height: 350px;
             object-fit: cover;
         }
 
@@ -142,30 +143,50 @@
 
     <section id="redes">
         <div class="bg-success text-white py-2 d-flex justify-content-center" style="border-top-left-radius: 9px;">
-            <a href="https://api.whatsapp.com/send?phone=51923496395" title="Whatsapp"><i
+            <a href="https://wa.me/+51983330558" title="Whatsapp"><i
                     class="fab fa-whatsapp"></i></a>
         </div>
         <div class="bg-info text-white py-2 d-flex justify-content-center">
-            <a href="https://www.facebook.com/pitagorasjl" target="_blank" title="Facebook"><i
+            <a href="https://www.facebook.com/profile.php?id=100040278324313" target="_blank" title="Facebook"><i
                     class="fab fa-facebook-square"></i></a>
         </div>
-        <!-- <div class="text-white py-2 d-flex justify-content-center" style="background-color: rgb(248, 63, 125);">
-            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-        </div> -->
-        <div class="bg-danger text-white py-2 d-flex justify-content-center">
+        <div class="text-white py-2 d-flex justify-content-center" style="background-color: rgb(248, 63, 125);">
+            <a href="https://www.instagram.com/asociacioneducativadejesus?igsh=MWdjMjBiMDVuMDcxeA%3D%3D&utm_source=qr" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <!-- <div class="bg-danger text-white py-2 d-flex justify-content-center">
             <a href="https://www.youtube.com/channel/UCnkJWL5kwbS_yZvTLhtEkGg/featured" target="_blank"
                 title="Youtube"><i class="fab fa-youtube"></i></a>
-        </div>
+        </div> -->
         <div class="text-white py-2 d-flex justify-content-center"
             style="border-bottom-left-radius: 9px; background-color: rgb(213, 182, 216);">
-            <a href="#" target="_blank" title="Cubicol"><img src="./img/icons/cubo.png" height="28"></a>
+            <a href="https://asociaciondejesus.cubicol.pe/principal/login" target="_blank" title="Cubicol"><img src="./img/icons/cubo.png" height="28"></a>
         </div>
     </section>
 
-    <section class="container-fluid p-0">
-        <a href="admision.php">
-            <img src="./img/banner/banner_prueba3.jpg" class="w-100">
-        </a>
+    <section class="container-fluid content-banner px-0">
+        <div id="carouselBanner" class="carousel slide pointer-event" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1" class=""></button>
+                <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2" class=""></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/banner/banner1.jpg" class="d-block w-100" style="object-fit: cover;;">
+                </div>
+                <div class="carousel-item ">
+                    <img src="./img/banner/banner2.jpg" class="d-block w-100" style="object-fit: cover;;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
 
     <br><br><br>
@@ -247,7 +268,7 @@
                 <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color4)">
                     <div class="row g-0">
                         <div class="col-md-2 d-flex justify-content-center align-items-center">
-                            <img src="https://jesussalvador.edu.pe//assets/img/icons/1_centro educativo.gif" height="80">
+                            <img src="./img/icons/1_centro educativo.gif" height="80">
                         </div>
                         <!-- <div class="col-md-10" style="background-color: var(--color4); border-radius: 10;"> -->
                         <div class="col-md-10">
@@ -264,14 +285,14 @@
                 <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color3)">
                     <div class="row g-0">
                         <div class="col-md-2 d-flex justify-content-center align-items-center">
-                            <img src="https://jesussalvador.edu.pe//assets/img/icons/2_valores cristianos.gif" height="80">
+                            <img src="./img/icons/2_valores cristianos.gif" height="80">
                         </div>
                         <div class="col-md-10" s="">
-                            <div class="card-body"  style="display:flex;justify-content:center;align-items:center;" > 
+                            <div class="card-body" style="display:flex;justify-content:center;align-items:center;">
                                 <div>
-                                <li>Psicólogos escolares para apoyo emocional.</li>
-                                <li>Programas contra el bullying y educación en convivencia.</li>
-                               </div>
+                                    <li>Psicólogos escolares para apoyo emocional.</li>
+                                    <li>Programas contra el bullying y educación en convivencia.</li>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -279,14 +300,14 @@
                 <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color2)">
                     <div class="row g-0">
                         <div class="col-md-2 d-flex justify-content-center align-items-center">
-                            <img src="https://jesussalvador.edu.pe//assets/img/icons/8_Curriculo nacional.gif" height="80">
+                            <img src="./img/icons/8_Curriculo nacional.gif" height="80">
                         </div>
                         <div class="col-md-10">
-                            <div class="card-body" style="display:flex;justify-content:center;align-items:center;" >
+                            <div class="card-body" style="display:flex;justify-content:center;align-items:center;">
                                 <div>
-                                <li>Educación personalizada según el ritmo de aprendizaje.</li>
-                                <li> Clases interactivas con proyectos y dinámicas. </li>
-                              </div>
+                                    <li>Educación personalizada según el ritmo de aprendizaje.</li>
+                                    <li> Clases interactivas con proyectos y dinámicas. </li>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -294,7 +315,7 @@
                 <!-- <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color1)">
                     <div class="row g-0">
                         <div class="col-md-2 d-flex justify-content-center align-items-center">
-                            <img src="https://jesussalvador.edu.pe//assets/img/icons/4_proyectos innovadores.gif" height="80">
+                            <img src="./img/icons/4_proyectos innovadores.gif" height="80">
                         </div>
                         <div class="col-md-10">
                             <div class="card-body d-flex justify-content-center align-items-center">
@@ -310,12 +331,12 @@
                         <div class="col-md-10">
                             <div class="card-body" style="display:flex;justify-content:center;align-items:center;">
                                 <div>
-                                <p class="card-text "> • Metodologías de enseñanza innovadoras.</p>
-                             </div>
+                                    <p class="card-text "> • Metodologías de enseñanza innovadoras.</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-2 d-flex justify-content-center align-items-center">
-                            <img src="https://jesussalvador.edu.pe//assets/img/icons/5_educación superior exitosa.gif" height="80">
+                            <img src="./img/icons/5_educación superior exitosa.gif" height="80">
                         </div>
                     </div>
                 </div>
@@ -324,13 +345,13 @@
                         <div class="col-md-10">
                             <div class="card-body" style="display:flex;justify-content:center;align-items:center;">
                                 <div>
-                                <li>Educación personalizada según el ritmo de aprendizaje.</li>
-                                <li>Clases interactivas con proyectos y dinámicas</li>
-                              </div>
+                                    <li>Educación personalizada según el ritmo de aprendizaje.</li>
+                                    <li>Clases interactivas con proyectos y dinámicas</li>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-2 d-flex justify-content-center align-items-center">
-                            <img src="https://jesussalvador.edu.pe//assets/img/icons/6_menciones honrosas.gif" height="80">
+                            <img src="./img/icons/6_menciones honrosas.gif" height="80">
                         </div>
                     </div>
                 </div>
@@ -339,28 +360,17 @@
                         <div class="col-md-10">
                             <div class="card-body" style="display:flex;justify-content:center;align-items:center;">
                                 <div>
-                                <li>Uso de plataformas digitales para el aprendizaje</li>
-                                <li>Enseñanza de idiomas extranjeros (inglés)</li>
-                             </div>
+                                    <li>Uso de plataformas digitales para el aprendizaje</li>
+                                    <li>Enseñanza de idiomas extranjeros (inglés)</li>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-2 d-flex justify-content-center align-items-center">
-                            <img src="https://jesussalvador.edu.pe//assets/img/icons/3_metodologia activa.gif" height="80">
+                            <img src="./img/icons/3_metodologia activa.gif" height="80">
                         </div>
                     </div>
                 </div>
-                <!-- <div class="card mb-3" style="border-radius: 30px; border: 4px dashed var(--color4)">
-                    <div class="row g-0">
-                        <div class="col-md-10">
-                            <div class="card-body d-flex justify-content-center align-items-center">
-                                <p class="card-text "></p>
-                            </div>
-                        </div>
-                        <div class="col-md-2 d-flex justify-content-center align-items-center">
-                            <img src="https://jesussalvador.edu.pe//assets/img/icons/7_premio.gif" height="80">
-                        </div>
-                    </div>
-                </div> -->
+
             </div>
         </div>
     </section>
@@ -384,7 +394,7 @@
     <br><br><br>
 
     <section class="container-fluid" id="valores">
-    <?php include_once './includes/valores.php'; ?>
+        <?php include_once './includes/valores.php'; ?>
     </section>
 
     <br><br><br>
@@ -395,12 +405,12 @@
             <div class="sep_title">Noticias</div>
         </div>
         <div class="row mt-4 pt-3">
-            <div class="col-md-3 my-3 px-3">
+            <div class="col-md-4 my-3 px-3">
                 <div class="card h-100">
-                    <img src="./img/noticias/noticia_1 .jpg" class="cover" width="100%">
+                    <img src="./img/galeria/portada_noticia1.jpg" class="cover" width="100%">
                     <div class="card-body pb-2">
-                        <a href="#">
-                            <h5>ciclo repaso 2021</h5>
+                        <a href="./view.php?id=1">
+                            <h5>Inicio de clases 2025</h5>
                         </a>
                         <div class="detalle">
                             <!-- text comentario -->
@@ -408,16 +418,16 @@
                     </div>
                     <div class="card-footer">
                         <i class="fas fa-calendar-alt"></i>
-                        <span class="ms-2">13-10-2021</span>
+                        <span class="ms-2">25-02-2025</span>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 my-3 px-3">
+            <div class="col-md-4 my-3 px-3">
                 <div class="card h-100">
-                    <img src="./img/noticias/noticia_2 .png" class="cover" width="100%">
+                    <img src="./img/galeria/portada_noticia2.jpg" class="cover" width="100%">
                     <div class="card-body pb-2">
-                        <a href="#">
-                            <h5>feliz día del niño</h5>
+                        <a href="./view.php?id=2">
+                            <h5>Dile No a la Piratería</h5>
                         </a>
                         <div class="detalle">
                             <!-- text comentario -->
@@ -425,16 +435,16 @@
                     </div>
                     <div class="card-footer">
                         <i class="fas fa-calendar-alt"></i>
-                        <span class="ms-2">13-10-2021</span>
+                        <span class="ms-2">21-02-2025</span>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 my-3 px-3">
+            <div class="col-md-4 my-3 px-3">
                 <div class="card h-100">
-                    <img src="./img/noticias/noticia_3 .jpg" class="cover" width="100%">
+                    <img src="./img/galeria/portada_noticia3.jpg" class="cover" width="100%">
                     <div class="card-body pb-2">
-                        <a href="#">
-                            <h5>Matricula abierta Repaso 2021</h5>
+                        <a href="./view.php?id=3">
+                            <h5>Matrículas Abiertas 2025</h5>
                         </a>
                         <div class="detalle">
                             <!-- text comentario -->
@@ -442,32 +452,31 @@
                     </div>
                     <div class="card-footer">
                         <i class="fas fa-calendar-alt"></i>
-                        <span class="ms-2">13-10-2021</span>
+                        <span class="ms-2">17-12-2025</span>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 my-3 px-3">
-                <div class="card h-100">
-                    <img src="./img/noticias/noticia_4.png" class="cover" width="100%">
-                    <div class="card-body pb-2">
-                        <a href="#">
-                            <h5>día internacional de la familia</h5>
-                        </a>
-                        <div class="detalle">
-                            <!-- text comentario -->
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <i class="fas fa-calendar-alt"></i>
-                        <span class="ms-2">13-10-2021</span>
+
+        </div>
+    </section>
+
+    <br><br><br>
+    <section class="container" id="ubicanos">
+        <div class="separador">
+            <div class="sep_box"><i class="fas fa-map-marked-alt"></i></div>
+            <div class="sep_title">Ubícanos</div>
+        </div>
+        <div class="row justify-content-around mt-4 pt-4">
+            <div class="col-lg">
+                <div class="card border-0 shadow">
+                    <div class="card-body p-3 pb-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.4219959622037!2d-76.9852525!3d-12.0144424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5bfbb41a1cd%3A0x23eef1a984b4fd8d!2sAv.%20Mangomarca%20499%2C%20Lima%2015427!5e0!3m2!1ses!2spe!4v1740496971405!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="shadow-sm"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <br><br><br>
-
     <?php include_once './includes/footer.php'; ?>
 
 </body>
