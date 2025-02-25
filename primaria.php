@@ -67,7 +67,7 @@
 
         /* color y tamaño */
         .accordion-button div.boton-icono {
-            color: var(--color2);
+            color: var(--color1);
             font-size: 20px;
             transition: -webkit-transform 0.2s ease-in-out;
             transition: transform 0.2s ease-in-out;
@@ -75,7 +75,7 @@
         }
 
         .accordion-button {
-            color: var(--color2);
+            color: var(--color1);
             font-size: 17.5px;
         }
 
@@ -170,7 +170,7 @@
                 <div class="sep_title">Bienvenidos al Nivel Primaria</div>
             </div>
             <div class="row justify-content-between mt-5">
-                <div class="col-lg-5 d-flex">
+                <div class="col-lg-5 my-auto">
                     <img src="./img/web/propuesta_prim.jpg" width="100%">
                 </div>
                 <div class="col-lg-6 mt-5 mt-lg-4">
@@ -217,26 +217,28 @@
                             </div>
                         </div>
                     </div>
-                    
-                        <div class="my-2">
-                            <br>
-                            <div class="row">
-                                <div class="col">
-                                    <h5 style="color:var(--color1);">Taller:</h5>
-                                </div>
+
+                    <div class="my-2">
+                        <br>
+                        <div class="row">
+                            <div class="col">
+                                <h5 style="color:var(--color1);">Taller:</h5>
                             </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <ul class="course-list">
-                                        <li class="course-item my-2">
-                                            <i class="fas fa-check-circle"></i> Recuperación Pedagogica
-                                        </li>
-                                    </ul>
-                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="course-list">
+                                    <li class="course-item my-2">
+                                        <i class="fas fa-check-circle"></i> Recuperación Pedagogica
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
+                </div>
         </section>
+        <br>
+        <br>
     </div>
 
     <br><br><br>

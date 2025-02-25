@@ -105,7 +105,7 @@
 
         /* color y tamaño */
         .accordion-button div.boton-icono {
-            color: var(--color2);
+            color: var(--color1);
             font-size: 20px;
             transition: -webkit-transform 0.2s ease-in-out;
             transition: transform 0.2s ease-in-out;
@@ -113,7 +113,7 @@
         }
 
         .accordion-button {
-            color: var(--color2);
+            color: var(--color1);
             font-size: 17.5px;
         }
 
@@ -298,7 +298,7 @@
         <div class="col-lg">
             <div class="row d-flex justify-content-evenly align-items-center pt-5 mt-4">
                 <div class="col-lg-5">
-                    <div class="d-flex justify-content-center align-items-center">
+                    <div class="d-flex justify-content-center align-items-center mx-4">
                         <img src="./img/web/propuesta_sec_of.jpg" width="100%" alt="">
                     </div>
                 </div>

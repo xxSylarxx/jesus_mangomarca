@@ -53,7 +53,7 @@
 
         /* color y tamaño */
         .accordion-button div.boton-icono {
-            color: var(--color2);
+            color: var(--color1);
             font-size: 20px;
             transition: -webkit-transform 0.2s ease-in-out;
             transition: transform 0.2s ease-in-out;
@@ -61,7 +61,7 @@
         }
 
         .accordion-button {
-            color: var(--color2);
+            color: var(--color1);
             font-size: 17.5px;
         }
 

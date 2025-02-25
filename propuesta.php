@@ -95,7 +95,7 @@
                 <div class="sep_title">Propuesta Pedagógica</div>
             </div>
             <div class="row d-flex justify-content-evenly align-items-center mt-5">
-                <div class="col-lg-6">
+                <div class="col-lg-5 my-auto">
                     <img src="./img/web/propuesta_educativa.png" width="90%" alt="">
                 </div>
                 <div class="col-lg-6 mt-lg-0 pt-5"> 
