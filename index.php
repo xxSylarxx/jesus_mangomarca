@@ -374,23 +374,6 @@
             </div>
         </div>
     </section>
-    <!-- <section class="container" id="servicios">
-        <div class="separador">
-            <div class="sep_box"><i class="fas fa-laptop"></i></div>
-            <div class="sep_title">Servicios tecnológicos</div>
-        </div>
-        <div class="row justify-content-around mt-4 pt-4">
-            <div class="col-lg-5 my-2">
-                <img src="https://gestion.pe/resizer/LOnv9z2WGZfpAtpXcBa2gJYl8aY=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/SNAX3ENF5BBS3IFCYFAOU4JDZU.jpg"
-                    class="rounded shadow" width="100%" height="290">
-            </div>
-            <div class="col-lg-5 my-2">
-                <video src="./img/video/VIDEO_CUBICOL.mp4" class="shadow rounded" width="100%" autoplay muted
-                    loop></video>
-            </div>
-        </div>
-    </section> -->
-
     <br><br><br>
 
     <section class="container-fluid" id="valores">
@@ -401,16 +384,6 @@
 
 
     <section class="container" id="noticias">
-
-        <!-- <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="shortcut icon" href="./img/icons/icono.ico" type="image/x-icon">
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-            <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-            <link rel="stylesheet" href="./assets/css/web.css">
-            <title>Asociación Educativa "De Jesús"</title>
-        </head> -->
         <div class="separador">
             <div class="sep_box"><i class="far fa-newspaper"></i></div>
             <div class="sep_title">Noticias</div>
@@ -420,7 +393,6 @@
             <div class="col-md-4 my-3 px-3">
                 <div class="card h-100">
                     <img src="./img/galeria/portada_noticia1.jpg" class="cover" width="100%">
-                    <img src="./img/galeria/Icono.ico" class="cover"
                     <div class="card-body pb-2">
                         <a href="./view.php?id=1">
                             <h5>Inicio de clases 2025</h5>
