@@ -143,7 +143,7 @@
 
     <section id="redes">
         <div class="bg-success text-white py-2 d-flex justify-content-center" style="border-top-left-radius: 9px;">
-            <a href="https://wa.me/+51983330558" title="Whatsapp"><i
+            <a href="https://wa.me/+51983330558" target="_blank"  title="Whatsapp"><i
                     class="fab fa-whatsapp"></i></a>
         </div>
         <div class="bg-info text-white py-2 d-flex justify-content-center">
@@ -151,7 +151,10 @@
                     class="fab fa-facebook-square"></i></a>
         </div>
         <div class="text-white py-2 d-flex justify-content-center" style="background-color: rgb(248, 63, 125);">
-            <a href="https://www.instagram.com/asociacioneducativadejesus?igsh=MWdjMjBiMDVuMDcxeA%3D%3D&utm_source=qr" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/asociacioneducativadejesus?igsh=MWdjMjBiMDVuMDcxeA%3D%3D&utm_source=qr" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="text-white py-2 d-flex justify-content-center" style="background-color: rgb(38, 33, 69);">
+            <a href="https://www.tiktok.com/@dejesus9252?_t=ZM-8uqc0rhv46v&_r=1" target="_blank" title="TikTok"><img src="./img/icons/tiktok.png" height="28"></a>
         </div>
         <!-- <div class="bg-danger text-white py-2 d-flex justify-content-center">
             <a href="https://www.youtube.com/channel/UCnkJWL5kwbS_yZvTLhtEkGg/featured" target="_blank"
@@ -229,7 +232,7 @@
                     <div class="card-niveles">
                         <div class="thumb">
                             <a href="inicial.php">
-                                <img src="./img/web/boton_inicial.png" width="100%">
+                                <img src="./img/web/boton_inicial.jpg" width="100%">
                                 <span>INICIAL</span>
                             </a>
                         </div>
@@ -239,7 +242,7 @@
                     <div class="card-niveles">
                         <div class="thumb">
                             <a href="primaria.php">
-                                <img src="./img/web/boton_primaria.png" width="100%">
+                                <img src="./img/web/boton_primaria.jpg" width="100%">
                                 <span>PRIMARIA</span>
                             </a>
                         </div>
@@ -249,7 +252,7 @@
                     <div class="card-niveles">
                         <div class="thumb">
                             <a href="secundaria.php">
-                                <img src="./img/web/boton_secundaria.png" width="100%">
+                                <img src="./img/web/boton_secundaria.jpg" width="100%">
                                 <span>SECUNDARIA</span>
                             </a>
                         </div>
